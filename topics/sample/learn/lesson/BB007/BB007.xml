@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<problem>
+	<attributes>
+		<UID>6-T01-BB001</UID>
+	</attributes>
+	<content>
+		<div class="wrapper xml6">
+			<div class="container">
+		<div class="template-six">
+			<ul>
+			<li>
+				<p>In algebra, letter symbols represent In algebra, </p> 
+				<img src="img/pix.jpg"/>
+				<p>In algebra, letter symbols represent numbers. In an equation, the unknown or variable usually has a value.</p>
+			</li>
+				<li>
+				<p>In algebra, letter symbols represent numbers. In an equation, the unknown or variable usually has a value.</p>
+				<img src="img/pix.jpg"/>
+				<p>In algebra, letter symbols represent numbers. In an equation, the unknown or variable usually has a value.</p>
+			</li>
+				<li>
+				<p>In algebra, letter symbols represent numbers. In an equation, the unknown or variable usually has a value.</p>
+				<img src="img/pix.jpg"/>
+				<p>In algebra, letter symbols represent numbers. In an equation, the unknown or variable usually has a value.</p>
+			</li>
+				
+			</ul>
+		</div>	
+		</div>	
+		</div>	
+	</content>
+
+	<steps>
+  		 <submit id="Q1">
+            <controls>
+                <checkboxControl id="noValidation" buttons="c1,c2" />
+            </controls>
+        </submit>
+  	</steps>
+</problem>

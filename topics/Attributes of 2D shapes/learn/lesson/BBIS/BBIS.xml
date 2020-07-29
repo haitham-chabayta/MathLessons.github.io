@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<problem>
+	<attributes>
+		<UID>06-CBDF-BBIS</UID>
+	</attributes>
+	<content>
+		<div class="wrapper  v-middle">
+			<div class="container">
+				<div class="welcomeScreen">
+					<img class="animated flipInY" src="./img/thumbnail.jpg" alt="" title="" />
+					<h1 class="animated fadeIn delay-1s"><strong>Describe</strong> and <strong>classify quadrilaterals</strong></h1>
+
+					<div id="play" class="animated fadeIn delay-1s" >
+						<span>
+							Start Lesson
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>	
+		
+	</content>
+	<steps>
+	<pause delay="1"/>
+		<step soundID="AU0001">
+		</step>
+		<next customID="play"/>
+		</steps>
+	<sounds>
+		<sound id="AU0001" src="sounds/AU0001.mp3">
+			
+		</sound>
+	</sounds>
+</problem>

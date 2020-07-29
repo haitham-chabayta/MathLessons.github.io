@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<problem>
+	<attributes>
+		<UID>6-T01-BB001</UID>
+	</attributes>
+	<content>
+		<div class="wrapper xml5">
+			<div class="container">
+		<div class="template-four">
+		 <div class="marginAuto curio-icon animated bounce delay-2s">
+					</div>
+    <div class="nd-container p30">
+      <h2 class="mb30 animated slideInUp">I can:</h2>
+      <ul>
+        <li class="animated pulse delay-1s" ><input type="checkbox" id="c1"/>Solve one-step equations involving addition.</li>
+        <li class="animated pulse delay-1s" ><input type="checkbox" id="c2"/>Solve one-step equations involving subtraction.</li>
+      </ul>
+    </div>
+		</div>	
+		</div>	
+		</div>	
+	</content>
+
+	<steps>
+  		 <submit id="Q1">
+            <controls>
+                <checkboxControl id="noValidation" buttons="c1,c2" />
+            </controls>
+        </submit>
+  	</steps>
+</problem>

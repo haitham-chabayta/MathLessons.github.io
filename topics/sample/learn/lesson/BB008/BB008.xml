@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<problem>
+	<attributes>
+		<UID>6-T01-BB001</UID>
+	</attributes>
+	<content>
+	<div class="wrapper xml8">
+		<div class="container">
+			<div class="dialog-boxes-components">
+				<div class="dialog-box-dark image animated fadeIn">
+				<span class="pin animated rotateIn delay-1s">
+				</span>
+				<h2>Dialog Box</h2>
+			
+				Text - Lato Regular - 22px. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+			</div>
+
+
+			<div class="dialog-box-light image animated fadeIn">
+				<span class="bulb animated flash delay-1s">
+				</span>
+				<h2>Dialog Box</h2>
+			
+				Text - Lato Regular - 22px. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+				</div>
+			</div>	
+		</div>	
+	</div>	
+	</content>
+
+	<steps>
+  		
+  	</steps>
+</problem>

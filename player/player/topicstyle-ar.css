@@ -1,0 +1,56 @@
+body {
+    background: white;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    position: fixed;
+    user-select: none;
+    width:100%;
+}
+
+.wrap {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top:0;
+    width: 100%;
+}
+
+.frame {
+    width: 770px;
+    height: 955px;
+    border:none;
+    background: white;
+    -ms-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+#loadingIcon {
+    background: url("images/loading.svg") no-repeat;
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 100px ;
+    left: calc(50% - 75px);
+    display: none;
+    z-index: 1000;
+}
+
+#progressbar {
+    position: absolute;
+    background: #00DFDA ;
+    height: 10px;
+    top: 0;
+    width: 0;
+    left: 0 ;
+    display: none;
+    border-radius: 0 5px 5px 0;
+    z-index: 999;
+}
+#rtl{
+    direction: rtl;
+}

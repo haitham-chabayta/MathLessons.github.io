@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<problem>
+	<attributes>
+		<UID>6-T01-BB001</UID>
+	</attributes>
+	<content>
+		<div class="wrapper xml2">
+			<div class="container">
+				<div class="template-one">
+					<div class="marginAuto curio-icon animated bounce delay-3s">
+					</div>
+					<p class="animated zoomIn">In algebra, letter symbols represent numbers. In an equation, the unknown or variable usually has a value.</p>
+					<div class="dark-bg p30 animated flipInY delay-1s">
+						X <span class="operator small27 add mlr5">
+						</span> 3 = 8
+					</div>
+					<p class="animated zoomIn delay-2s">Finding the value of the unknown (or variable is called <span class="blue">solving</span> the equation.</p>
+				</div>
+			</div>
+		</div>	
+	</content>
+
+	<steps>
+  	
+  	</steps>
+</problem>

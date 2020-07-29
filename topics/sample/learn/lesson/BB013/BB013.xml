@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<problem>
+	<attributes>
+		<UID>6-T01-BB001</UID>
+	</attributes>
+	<content>
+	<div class="wrapper xml10">
+		<div class="container">
+			<div class="template-ten">
+      <p class="title">Match the correct answer to each equation</p>
+            <div class="dnd-row-target-box">
+                <div class="dnd-row-target">
+                    <div class="dnd-col col-text">weldjlwej weldjlwej weldjlwej weldjlwej weldjlwej</div>
+                    <div class="dnd-col"><dndTarget id="ta1" width="285"/></div>
+                </div>
+                   <div class="dnd-row-target">
+                    <div class="dnd-col col-text">weldjlwej</div>
+                    <div class="dnd-col"><dndTarget id="ta2" width="285"/></div>
+                </div>
+                   <div class="dnd-row-target">
+                    <div class="dnd-col col-text">weldjlwej</div>
+                    <div class="dnd-col"><dndTarget id="ta3" width="285"/></div>
+                </div>
+                 <div class="dnd-row-target">
+                    <div class="dnd-col col-text">weldjlwej</div>
+                    <div class="dnd-col"><dndTarget id="ta4" width="285"/></div>
+                </div>
+            </div>
+            <div class="cardRectangle">
+                  <p class="innerHeader">Drag the correct answers into each box</p>
+                <div class="dnd-row-card">
+                <div class="dnd-col"><dndCard id="c1k" width="285" >more than</dndCard></div>
+                <div class="dnd-col"><dndCard id="c2k" width="285" >more than</dndCard></div>
+                <div class="dnd-col"><dndCard id="c3k" width="285" >more than</dndCard></div>
+                <div class="dnd-col"><dndCard id="c4k" width="285" >more than</dndCard></div>
+                </div>
+            </div>
+			</div>	
+		</div>	
+	</div>	
+	</content>
+
+	<steps>
+    <!-- <pause delay="4"/> -->
+  		<submit id="Q6">
+      <controls>
+        <dndControl id="dnd1" correctAnswer="c1k,c2k,c3k,c4k" cards="c1k,c2k,c3k,c4k" targets="ta1,ta2,ta3,ta4"/>
+      </controls>
+    </submit>
+    <step if="Q6.incorrect || Q6.correct">
+      <dndMove id="dnd1"/>
+    </step>
+  	</steps>
+</problem>

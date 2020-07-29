@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden ;
+}
+
+/** Bold */
+@font-face {
+    font-family: "SF Text";
+    font-weight: 700;
+    src: url("../../player/fonts/SFUIText-Bold.ttf");
+}
+
+#wheel {
+    background: url("img/wheel.png") no-repeat;
+    width: 93px;
+    height: 93px;
+    position: absolute;
+    display: none;
+}
+
+#part01 {
+    background: url("img/part01.png") no-repeat;
+    width: 27px ;
+    height: 107px;
+    position: absolute;
+    display: none;
+}
+
+#part02 {
+    background: url("img/part02.png") no-repeat;
+    width: 85px ;
+    height: 85px;
+    position: absolute;
+    display: none;
+}
+
+#part03 {
+    background: url("img/part03.png") no-repeat;
+    width: 131px;
+    height: 54px;
+    position: absolute;
+    display: none;
+}
+
+#part04 {
+    background: url("img/part04.png") no-repeat;
+    width: 214px;
+    height: 109px;
+    position: absolute;
+    display: none;
+}
+
+#part05 {
+    background: url("img/part05.png") no-repeat;
+    width: 283px;
+    height: 19px;
+    position: absolute;
+    display: none;
+}
+
+#righthand01 {
+    background: url("img/righthand01.png") no-repeat;
+    width: 48px;
+    height: 112px;
+    position: absolute;
+    display: none;
+}
+
+#righthand02 {
+    background: url("img/righthand02.png") no-repeat;
+    width: 70px;
+    height: 135px;
+    position: absolute;
+    display: none;
+}
+
+#righthand03 {
+    background: url("img/righthand03.png") no-repeat;
+    width: 58px;
+    height: 58px;
+    position: absolute;
+    display: none;
+}
+
+#lefthand01 {
+    background: url("img/lefthand01.png") no-repeat;
+    width: 48px;
+    height: 112px;
+    position: absolute;
+    display: none;
+}
+
+#lefthand02 {
+    background: url("img/lefthand02.png") no-repeat;
+    width: 70px;
+    height: 135px;
+    position: absolute;
+    display: none;
+}
+
+#lefthand03 {
+    background: url("img/lefthand03.png") no-repeat;
+    width: 58px;
+    height: 58px;
+    position: absolute;
+    display: none;
+}
+
+#head {
+    background: url("img/head.png") no-repeat;
+    width: 79px;
+    height: 80px;
+    position: absolute;
+    display: none;
+}
+
+#eyebrow {
+    background: url("img/eyebrow.png") no-repeat;
+    width: 61px;
+    height: 8px;
+    position: absolute;
+    left: 9px;
+    top: 3px ;
+    display: none;
+}
+
+#mouth {
+    background: url("img/mouth.png") no-repeat;
+    width: 103px;
+    height: 47px;
+    position: absolute;
+    top: 40px ;
+    left: -20px;
+    display: none;
+}
+
+#robot {
+    position: absolute;
+    top: 944px ;
+    left: 200px;
+}
+
+#correctscore {
+    background: url("img/correctscore.png") no-repeat;
+    width: 368px;
+    height: 281px;
+    position: absolute;
+    top: 100px ;
+    left: 100px;
+    font-family: "SF Text" ;
+    font-size: 125px;
+    font-weight: 700;
+    padding-left: 190px;
+    padding-top: 80px;
+    color: white;
+    display: none;
+}
+
+#incorrectscore {
+    background: url("img/incorrectscore.png") no-repeat;
+    width: 256px;
+    height: 193px;
+    position: absolute;
+    top: 220px ;
+    left: 420px;
+    font-family: "SF Text" ;
+    font-size: 72px;
+    font-weight: 700;
+    padding-left: 65px;
+    padding-top: 45px;
+    color: white;
+    display: none;
+}
+
+#hooray {
+    background: url("img/hooray.png") no-repeat;
+    background-size: contain;
+    width: 227px;
+    height: 77px;
+    position: absolute;
+    top: 550px ;
+    left: 370px;
+    display: none;
+}
+
+#replay {
+    background: url("img/replay.png") no-repeat;
+    background-size: contain;
+    width: 121px;
+    height: 111px;
+    position: absolute;
+    top: 720px ;
+    left: 520px;
+    cursor: pointer;
+    display: none;
+}
+
+#replayarrow {
+    background: url("img/replayarrow.png") no-repeat;
+    background-size: contain;
+    width: 58px;
+    height: 49px;
+    position: absolute;
+    top: 30px ;
+    left: 30px;
+    display: none;
+}
+
+
+
+div.cloud {
+    background-image: url("img/cloud.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 256px;
+    height: 256px;
+    position: absolute;
+    transform-origin: 50% 60%;
+    opacity: 0.5;
+}

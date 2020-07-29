@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<problem>
+	<attributes>
+		<UID>6-T01-BB001</UID>
+	</attributes>
+	<content>
+	<div class="wrapper xml11">
+		<div class="container template-twelve">
+                <div class="branchPopUp">
+                        <img src="./img/union.png" class="mb20"/>
+                        <p class="pb20">Do you want to learn long division in details?</p>
+                            <choose id="c11">No</choose>
+                            <choose id="c12">Yes</choose>
+                </div>
+        </div>
+    </div>
+	</content>
+
+	<steps>
+    <submit id="qPopUp">
+      <controls>
+        <chooseControl id="rg1" buttons="c11,c12" correctAnswer="c11" />
+      </controls>
+    </submit>
+    <step  if="qPopUp.incorrect || qPopUp.correct">
+      <replaceAnswerToggle id="rg1" />
+    </step>
+  	</steps>
+</problem>

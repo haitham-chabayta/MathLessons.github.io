@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="127px" height="141px" viewBox="0 0 127 141" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(0.544823, 0.626879)">
+            <path d="M63.2222222,133 C102.004885,133 133,121.169616 133,82.64776 C133,44.125904 102.004885,7 63.2222222,7 C24.4395598,7 -7,18.9792014 -7,57.5010575 C-7,96.0229135 24.4395598,133 63.2222222,133 Z" id="Purple" fill="#01D8FF" transform="translate(63.000000, 70.000000) rotate(-270.000000) translate(-63.000000, -70.000000) "></path>
+            <polyline id="Path" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" points="73.9451771 85.6431213 89.0751771 70.5031213 73.9451771 55.3731213"></polyline>
+            <path d="M85.7951771,70.5031213 L38.4551771,70.5031213" id="Path" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

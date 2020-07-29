@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<problem>
+	<attributes>
+		<UID>6-T01-BB001</UID>
+	</attributes>
+	<content>
+	<div class="wrapper xml16">
+		<div class="container template-13">
+            <div  id="hint" class="hint-box">
+            <span class="hint-banner">
+            <p>Hint!</p></span>
+            <div class="inner-text-box">
+                <span>This is a hint</span>
+                Text - Lato Regular - 26px. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, 
+                onsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+            <div class="arrow-down"></div>
+            </div>
+            <div class="curio-icon">
+            </div>
+        </div>
+    </div>
+	</content>
+
+	<steps>
+    <step>
+    <show id="hint" delay="1" time="1"/>
+
+    </step>
+  	</steps>
+</problem>

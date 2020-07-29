@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<problem>
+	<attributes>
+		<UID>6-T01-BB001</UID>
+	</attributes>
+	<content>
+	<div class="wrapper xml10">
+		<div class="container">
+			<div class="template-eight">
+				
+			 <h1 class=" mb30 text-center animated slideInDown">Check</h1>
+
+      <div id="boxCont" class="mt30 hide boxCont text-center ">
+          <div class="equationBox">
+          <span class="boxContent mr10">
+            x <span class="operator sub small27">
+            </span> 4 = 6 
+          </span>
+        <span class="boxContent boxConten-align mt20">
+             x = <span class="blue">10</span> 
+        </span>
+          </div>
+      </div>
+ <div id="boxCont" class="mt30 hide boxCont text-center ">
+          <div class="equationBox">
+                   <span class="boxContent">
+            10 <span class="operator sub small27">
+            </span> 4 = 6 
+          </span>
+        <span class="boxContent boxConten-align mt20">
+            6 = 6
+        </span>
+          </div>
+      </div>
+			</div>	
+		</div>	
+	</div>	
+	</content>
+
+	<steps>
+  		
+  	</steps>
+</problem>

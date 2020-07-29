@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<problem>
+	<attributes>
+		<UID>06-CBDF-BB001</UID>
+	</attributes>
+	 <content>
+		<div class="wrapper">
+			<div class="container xml1">
+			<div class="dialog-box-light image animated bounceIn">
+				<span class="pin animated rotateIn delay-1s">
+				</span>
+				
+				<p style="padding-left:40px"><b>Decimals, fractions </b> and <b>percents</b> are different ways of showing the same value.</p>
+				
+			
+				</div>
+		
+			<div id="first" class="image-box">
+
+			<img class="img1 animated zoomInDown delay-1s" src="img/percents.png"/>
+				<div id="hide-box-1" class="cover-box coverBox-horizontal">
+				</div>
+				<span id="pointDec" class="pointDec">
+				</span>
+			</div>
+			</div>
+		</div>
+	</content>
+	<steps>
+<pause delay="1"/>
+<step soundID="AU0005">
+</step>
+	<step soundID="AU0010">
+	<show id="hide-box-1" delay="4" time="2"/>
+	<show id="hide-box-2" delay="4" time="2"/>
+	<show id="pointDec" delay="5" time="2"/>
+
+	</step>
+		<next/>
+	</steps>
+
+		<sounds>
+		<sound id="AU0005" src="sounds/AU0005.mp3">
+			<ttsText>Decimals, fractions and percents (also known as percentages) are different ways of showing the same value of a number.</ttsText>
+		</sound>
+	<sound id="AU0010" src="sounds/AU0010.mp3">
+			<ttsText>In this lesson, you will focus on learning how to convert fractions to decimals. </ttsText>
+		</sound>
+	</sounds>
+</problem>

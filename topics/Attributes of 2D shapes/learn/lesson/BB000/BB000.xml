@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<problem>
+	<attributes>
+		<UID>00000-CBDF-BB000</UID>
+	</attributes>
+	<content bgcolor="#F8F9FB">
+	<div class="wrapper xml0">
+		<div class="container">
+			<div class="dialog-box-light image animated bounceIn">
+				<span class="bulb animated flash delay-1s">
+				</span>
+				<h1 class="center"><b>Quadrilaterals</b></h1>
+			</div>
+
+			<div id="shapes-box1" class="shapes-box center">
+			<p class="row-1">
+				<img id="square" class="animated bounceIn delay-2s shape-img left-img" src="img/square.png"/>
+				<img class="animated bounceIn delay-3s shape-img" src="img/trapezoid.png"/>
+			</p>
+			<p>
+				<img class="animated bounceIn delay-4s shape-img left-img" src="img/parellelogram.png"/>
+				<img id="rectangle" class="animated bounceIn delay-5s shape-img" src="img/rectangle.png"/>
+			</p>
+			</div>
+
+			<div id="shapes-box2" class="shapes-box center none">
+			<p class="row-1">
+				<img id="square-10" class="animated bounceIn delay-1s shape-img left-img" src="img/sqr.png"/>
+				<img id="zoid" class="animated bounceIn delay-2s  shape-img" src="img/trap.png"/>
+			</p>
+			<p>
+				<img id="parallelo" class="animated bounceIn delay-3s  shape-img left-img" src="img/par.png"/>
+				<img id="rectangle-10" class="animated bounceIn delay-4s  shape-img" src="img/rec.png"/>
+			</p>
+			</div>
+
+			<div id="question1" class="animated slideInLeft question-box center none">
+				<h3>Quadrilaterals have <input id="input1" class="animated bounceIn" type="text"/> sides and <input id="input2" class="animated bounceIn" type="text"/>  angles.</h3>
+			</div>
+		</div>	
+	</div>	
+	</content>
+	<steps>
+		<pause delay="6"/>
+		<step soundID="AU0005">
+			<show id="question1"/>
+		</step>
+		<submit id="Q1">
+   			<controls>
+ 			 	<control id="input1" correctAnswer="4" />
+				<control id="input2" correctAnswer="4" /> 
+   			</controls>
+		</submit>
+		<step>
+			<replaceAnswerInput id="input1" delay="1"/>
+			<replaceAnswerInput id="input2" delay="1"/>
+			<hide id="shapes-box1" delay="4"/>
+			<css  id="shapes-box2" style="display:block" delay="5.5"/>
+		</step>
+		<pause delay="5"/>
+		<step if="Q1.correct" soundID="AU0010">
+		<circleMarker id="shapes-box2" delay="4"/>
+		</step>
+		<step if="Q1.incorrect" soundID="AU0015">
+		<circleMarker id="shapes-box2" delay="3"/>
+		</step>
+		<next/>
+	</steps>
+
+<sounds>
+		<sound id="AU0005" src="sounds/AU0005.mp3">
+		</sound>
+		<sound id="AU0010" src="sounds/AU0010.mp3">	
+		</sound>
+		<sound id="AU0015" src="sounds/AU0015.mp3">	
+		</sound>
+	</sounds>
+</problem>

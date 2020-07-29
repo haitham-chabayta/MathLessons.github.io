@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<problem>
+	<attributes>
+		<UID>6-T01-BB001</UID>
+	</attributes>
+	<content>
+	<div class="wrapper">
+		<div class="container">
+			<div class="xml8">
+			<h2 class="mb30 text-center animated slideInDown">Convert each fractions to decimals:</h2>
+					<div class="left-row-box">
+						<div class="left-col animated zoomInDown"><h2>Fraction</h2></div>
+						<div class="left-col animated zoomInLeft delay-1s"><span class="box"><frac>5 | 7</frac></span></div>
+						<div id="q2-left" class="left-col animated zoomInLeft " style="display:none"><span class="box"><frac>4 | 5</frac></span></div>
+						<div id="q3-left" class="left-col animated zoomInLeft " style="display:none"><span class="box"><frac>7 | 8</frac></span></div>
+					</div>
+					<div class="mid-row-box">
+					<div class="left-col animated zoomInDown"><h2> </h2></div>
+					<div class="left-col" >
+					<div id="center1" class="dialog-box-light image animated fadeIn" style="display:none">
+				<span id="t11" class="animated zoomIn t-group t1">7</span>
+				<span id="t31" class="img-background animated zoomIn t-group" >5</span>
+				<span id="t21" class="animated zoomIn t-group" > = <strong style="color:#00dcee">0.714</strong></span>
+				</div>
+				</div>
+				<div class="left-col" >
+					<div id="center2" class="dialog-box-light image animated fadeIn" style="display:none">
+				<span id="t12" class="animated zoomIn t-group t1">5</span>
+				<span id="t32" class="img-background animated zoomIn t-group" >4</span>
+				<span id="t22" class="animated zoomIn t-group"> = <strong style="color:#00dcee">0.8</strong></span>
+				</div>
+				</div>
+				<div class="left-col" >
+					<div id="center3" class="dialog-box-light image animated fadeIn" style="display:none">
+				<span id="t13" class="animated zoomIn t-group t1">8</span>
+				<span id="t33" class="img-background animated zoomIn t-group" >7</span>
+				<span id="t23" class="animated zoomIn t-group" > = <strong style="color:#00dcee">0.875</strong></span>
+				</div>
+				</div>
+				</div>
+					<div class="right-row-box">
+						<div class="right-col animated zoomInDown"><h2>Decimal</h2></div>
+						<div class="right-col animated zoomInRight delay-1s"> 
+								<input type="number" id="input1"/>
+						</div>
+						<div class="right-col animated zoomInRight delay-1s" > 
+						<input type="number" id="input2" style="display:none"/>
+						</div>						
+						<div class="right-col animated zoomInRight delay-1s"> 
+						<input type="number" id="input3" style="display:none"/>
+						</div>
+					</div>
+			<!-- <img id="CurioThink" class="animated bounce" src="./img/icon.png"/> -->
+			</div>	
+		</div>	
+	</div>	
+	</content>
+
+	<steps>
+	<step soundID="AU0100">
+	</step>
+		<submit id="Q1">
+  			 <controls>
+ 				 <control id="input1" correctAnswer="0.714"/> 
+			 </controls>
+		</submit>	
+		<step soundID="AU0105" if="Q1.incorrect||Q1.correct">
+		<hide id="CurioThink"/>
+		<replaceAnswerInput id="input1" delay="7"/>
+		<show id="center1" delay="3"/>
+		<!-- <circleMarker id="t11,t21,t31" delay="5"/> -->
+		<show id="q2-left" delay="8"/>
+		<show id="input2" delay="9"/>
+		</step>
+		
+		<submit id="Q2">
+		<controls>
+			<control id="input2" correctAnswer="0.8"/> 
+		</controls>
+		</submit>
+		<step if="Q2.incorrect||Q2.correct">
+		<replaceAnswerInput id="input2" delay="1.0"/>
+		<show id="center2" delay="1"/>
+		<!-- <circleMarker id="t12,t22,t32" delay="2"/> -->
+		<show id="q3-left" delay="2"/>
+		<show id="input3" delay="3"/>
+		</step>
+		<submit id="Q3">
+		<controls>
+ 			<control id="input3" correctAnswer="0.875"/> 
+  			 </controls>
+		</submit>
+		<step if="Q3.incorrect||Q3.correct">
+		<replaceAnswerInput id="input3" delay="1"/>		
+		<show id="center3" delay="1"/>
+		<!-- <circleMarker id="t13,t23,t33" delay="2"/> -->
+		</step>
+		
+	<next/>
+  		
+  	</steps>
+	  	  
+	<sounds>
+		<sound id="AU0100" src="sounds/AU0100.mp3">
+			<ttsText>Convert each fraction to a decimal using long division.</ttsText>
+		</sound>
+		<sound id="AU0105" src="sounds/AU0105.mp3">
+			<ttsText>When the fraction, 5/7 is converted into a decimal it is written as 0.714.</ttsText>
+		</sound>		
+	</sounds>
+</problem>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<problem>
+	<attributes>
+		<UID>06-CBDF-BB000</UID>
+	</attributes>
+	<content>
+<div class="wrapper xml0">
+	<div class="container">
+
+<h1 id="frst" class="mb30 text-center" style="display:none">This text to be shown</h1>
+<h1 id="scnd" class="mb30 text-center" style="display:none">This text to be blinded</h1>
+<h1 id="thrd" class="mb30 text-center" style="display:none">This text to be dropped</h1>
+<img id="frth" src="img/main.png" style="display:none"/>
+<img id="ffth" src="img/main-old.png" style="display:none"/>
+<h1 id="sxth" class="mb30 text-center" style="display:none"> This should be shown as <span id="61" style="display:none">first</span><span id="62" style="display:none"> second </span><span id="63" style="display:none"> third </span><span id="64" style="display:none"> and fourth </span></h1>
+<h1 id="svn" class="mb30 text-center" style="display:none">This <span id="71">text</span> to be shown specially</h1>
+
+		</div>	
+	</div>	
+	</content>
+	<steps>
+<step>
+<!-- <show id="frst" type="jumpout" delay="1"/> -->
+<!-- <blind id="scnd" direction="left" delay="1" time="4"/> -->
+<!-- <drop id="thrd" delay="1"/> -->
+<!-- <turnOver id="frth" delay="1"/> -->
+<!-- <moveFrom id="ffth" from="frth" at="center" my="center" delay="2" time="1"/> -->
+<!-- <show id="ffth"/> -->
+<!-- <show id="sxth" />
+<showCounters id="61,62,63,64" stagger="1" delay="0.5"/> -->
+<!-- <hide id="frst" delay="4"/> -->
+<!-- <dropDown id="ffth" delay="2"/> -->
+<!-- <explode id="frst" delay="2"/> -->
+<!-- <explode id="frth" delay="2"/> -->
+<!-- <shade id="ffth" delay="2"/>
+<unshade id="ffth" delay="4"/> -->
+<!-- <animate id="frst" color="red" delay="3"/> -->
+<!-- <scale id="ffth" scale="2" delay="2"/> -->
+<!-- <scale2 id="frst" scale="2" delay="4"/> -->
+<!-- <rotate id="ffth" angle="70" delay="2"/> -->
+<!-- <rotate2 id="frst" from="0" to="90" delay="4"/> -->
+<!-- <css id="ffth" style="height:200px; width:200px" delay="2"/> -->
+<!-- <show id="svn"/> -->
+<!-- <highlight id="71" marker="true" delay="2"/> -->
+<!-- <resetIndication id="71" delay="4"/> -->
+<!-- <pointMarker id="ffth" delay="2" at="center"/> -->
+<!-- <pointMarker id="71" delay="2" at="center"/> -->
+
+<!-- <underlineMarker id="71" delay="2"/> -->
+<!-- <circleMarker id="71" delay="2"/> -->
+</step>
+		<next/>
+	</steps>
+
+	<sounds>
+		<sound id="AU0001" src="sounds/AU0001.mp3">
+			<ttsText> In this lesson you will learn  how to convert  fractions to decimals.</ttsText>
+		</sound>
+	</sounds>
+</problem>

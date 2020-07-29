@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<problem>
+	<attributes>
+		<UID>6-T01-BB000</UID>
+	</attributes>
+	<content>
+  <div class="wrapper xml1">
+
+	<div class="text-center mtb30">
+
+		<span class="operator add">
+		</span>
+		<span class="operator sub">
+		</span>
+		<span class="operator mul">
+		</span>
+		<span class="operator div">
+		</span>
+		<span class="operator exclanation">
+		</span>
+	
+	</div>
+
+	<div class="text-center mtb30">
+
+		<span class="operator add small50">
+		</span>
+		<span class="operator sub small50">
+		</span>
+		<span class="operator mul small50">
+		</span>
+		<span class="operator div small50">
+		</span>
+		<span class="operator exclanation small50">
+		</span>
+	
+	</div>
+
+	<div class="text-center mtb30">
+
+		<span class="operator add small35">
+		</span>
+		<span class="operator sub small35">
+		</span>
+		<span class="operator mul small35">
+		</span>
+		<span class="operator div small35">
+		</span>
+		<span class="operator exclanation small35">
+		</span>
+	
+	</div>
+
+	
+
+	<div class="text-center mtb30">
+			<span class="VbidirectionalArrow">
+			</span>
+			<span class="HbidirectionalArrow">
+			</span>
+
+			<span class="VbidirectionalArrow small">
+			</span>
+			<span class="HbidirectionalArrow small">
+			</span>
+	</div>
+
+	
+
+	<div class="text-center mtb30">
+			<span class="ldownArrows">
+			</span>
+			<span class="rdownArrows">
+			</span>
+	</div>
+
+	
+
+	<div class="text-center mtb30">
+			<span class="ldownArrows2">
+			</span>
+			<span class="rdownArrows2">
+			</span>
+	</div>
+
+	<div class="text-center mtb30">
+			<span class="Oval-arrow-downwards-clockwise">
+			</span>
+			<span class="Oval-arrow-downwards-anticlockwise">
+			</span>
+	</div>
+
+	<div class="text-center mtb30">
+			<span class="Oval-arrow-downwards-clockwise reverse">
+			</span>
+			<span class="Oval-arrow-downwards-anticlockwise reverse">
+			</span>
+	</div>
+
+	
+	
+	</div>
+
+	</content>
+	
+</problem>

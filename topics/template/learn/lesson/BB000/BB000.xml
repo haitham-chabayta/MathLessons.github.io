@@ -1,0 +1,424 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<problem>
+	<attributes>
+		<UID>6-T01-BB000</UID>
+	</attributes>
+	<content>
+  <div class="wrapper xml1">
+
+	<h1 class="mb30 text-center">Learning Objective</h1>
+	<div class="text-center">
+		<p class="mtb15" id="identify" style="display:none"> Identify <strong>the nitrogen cycle</strong> steps on the image.</p>
+		<p class="mb30" id="drag" style="display:none">Drag and drop the steps to the appropriate position. Drag and drop the steps to the appropriate position.Drag and drop the steps to the appropriate position.Drag and drop the steps to the appropriate position.Drag and drop the steps to the appropriate position.Drag and drop the steps to the appropriate position.Drag and drop the steps to the appropriate position.Drag and drop the steps to the appropriate position.Drag and drop the steps to the appropriate position.</p>
+	</div>
+
+	<div class="text-center mtb30">
+
+		<span class="operator add">
+		</span>
+		<span class="operator sub">
+		</span>
+		<span class="operator mul">
+		</span>
+		<span class="operator div">
+		</span>
+		<span class="operator exclanation">
+		</span>
+	
+	</div>
+
+	<div class="text-center mtb30">
+
+		<span class="operator add small50">
+		</span>
+		<span class="operator sub small50">
+		</span>
+		<span class="operator mul small50">
+		</span>
+		<span class="operator div small50">
+		</span>
+		<span class="operator exclanation small50">
+		</span>
+	
+	</div>
+
+	<div class="text-center mtb30">
+
+		<span class="operator add small35">
+		</span>
+		<span class="operator sub small35">
+		</span>
+		<span class="operator mul small35">
+		</span>
+		<span class="operator div small35">
+		</span>
+		<span class="operator exclanation small35">
+		</span>
+	
+	</div>
+
+	
+
+	<div class="text-center mtb30">
+			<span class="VbidirectionalArrow">
+			</span>
+			<span class="HbidirectionalArrow">
+			</span>
+
+			<span class="VbidirectionalArrow small">
+			</span>
+			<span class="HbidirectionalArrow small">
+			</span>
+	</div>
+
+	
+
+	<div class="text-center mtb30">
+			<span class="ldownArrows">
+			</span>
+			<span class="rdownArrows">
+			</span>
+	</div>
+
+	
+
+	<div class="text-center mtb30">
+			<span class="ldownArrows2">
+			</span>
+			<span class="rdownArrows2">
+			</span>
+	</div>
+
+	<div class="text-center mtb30">
+			<span class="Oval-arrow-downwards-clockwise">
+			</span>
+			<span class="Oval-arrow-downwards-anticlockwise">
+			</span>
+	</div>
+
+	<div class="text-center mtb30">
+			<span class="Oval-arrow-downwards-clockwise reverse">
+			</span>
+			<span class="Oval-arrow-downwards-anticlockwise reverse">
+			</span>
+	</div>
+
+	<table border="1" class="text-center mt30 animated fadeIn" cellpadding="0" cellspacing="0">
+			<thead>
+					<tr>
+						<th>Label 1</th>
+						<th>Label 2</th>
+						<th>Label 3</th>
+						<th>Label 4</th>
+						<th>Label 5</th>
+					</tr>
+			</thead>
+			<tbody>
+					<tr>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+					</tr>
+					<tr>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+					</tr>
+					<tr>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+					</tr>
+					<tr>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+					</tr>
+			</tbody>
+	</table>
+
+	<table border="1" class="text-center highlighters mt30" cellpadding="0" cellspacing="0">
+			<thead>
+					<tr>
+						<th>Label 1</th>
+						<th>Label 2</th>
+						<th>Label 3</th>
+						<th>Label 4</th>
+						<th>Label 5</th>
+					</tr>
+			</thead>
+			<tbody>
+					<tr>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+					</tr>
+					<tr>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+					</tr>
+					<tr>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+					</tr>
+					<tr>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+					</tr>
+			</tbody>
+	</table>
+
+	<table border="1" class="text-center highlighters mt30" cellpadding="0" cellspacing="0">
+			<thead>
+					<tr>
+						<th>Label 1</th>
+						<th>Label 2</th>
+					</tr>
+			</thead>
+			<tbody>
+					<tr>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+					</tr>
+					<tr>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+					</tr>
+					<tr>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+					</tr>
+					<tr>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+					</tr>
+			</tbody>
+	</table>
+
+	<table border="1" class="text-center darkheader highlighters mt30" cellpadding="0" cellspacing="0">
+			<thead>
+					<tr>
+						<th>Label 1</th>
+						<th>Label 2</th>
+						<th>Label 3</th>
+						<th>Label 4</th>
+						<th>Label 5</th>
+					</tr>
+			</thead>
+			<tbody>
+					<tr>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+					</tr>
+					<tr>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+					</tr>
+					<tr>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+					</tr>
+					<tr>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+					</tr>
+			</tbody>
+	</table>
+
+	<table border="1" class="text-center whitebg mt30 animated fadeIn" cellpadding="0" cellspacing="0">
+			<thead>
+					<tr>
+						<th>Label 1</th>
+						<th>Label 2</th>
+						<th>Label 3</th>
+						<th>Label 4</th>
+						<th>Label 5</th>
+					</tr>
+			</thead>
+			<tbody>
+					<tr>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+					</tr>
+					<tr>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+					</tr>
+					<tr>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+					</tr>
+					<tr>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+					</tr>
+			</tbody>
+	</table>
+
+	<table border="1" class="text-center whitebg highlighters mt30 animated fadeIn" cellpadding="0" cellspacing="0">
+			<thead>
+					<tr>
+						<th>Label 1</th>
+						<th>Label 2</th>
+						<th>Label 3</th>
+						<th>Label 4</th>
+						<th>Label 5</th>
+					</tr>
+			</thead>
+			<tbody>
+					<tr>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+					</tr>
+					<tr>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+					</tr>
+					<tr>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+					</tr>
+					<tr>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+							<td>sdbhjas</td>
+					</tr>
+			</tbody>
+	</table>
+
+	<ul class="horizontalList mtb30">
+			<li>
+					List 1
+			</li>
+			<li>
+					List 2
+			</li>
+			<li>
+					List 3
+			</li>
+			<li>
+					List 4
+			</li>
+	</ul>
+
+
+	<ul class="horizontalList mtb30 design2">
+			<li>
+					List 1
+			</li>
+			<li>
+					List 2
+			</li>
+			<li>
+					List 3
+			</li>
+			<li>
+					List 4
+			</li>
+	</ul>
+
+	<ul class="horizontalList mtb30 design3 white">
+			<li>
+					List 1
+			</li>
+			<li>
+					List 2
+			</li>
+			<li>
+					List 3
+			</li>
+			<li>
+					List 4
+			</li>
+	</ul>
+
+<ul class="horizontalList design4 mtb30">
+			<li>
+					List 1
+			</li>
+			<li>
+					List 2
+			</li>
+			<li>
+					List 3
+			</li>
+			<li>
+					List 4
+			</li>
+			
+	</ul>
+
+	<ul class="horizontalList two mtb30">
+			<li>
+					List 1
+			</li>
+			<li>
+					List 2
+			</li>
+			<li>
+					List 3
+			</li>
+			<li>
+					List 4
+			</li>
+	</ul>
+	
+	</div>
+
+	</content>
+	
+</problem>

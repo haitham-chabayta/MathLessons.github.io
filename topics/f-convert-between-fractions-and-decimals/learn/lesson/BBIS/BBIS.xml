@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<problem>
+	<attributes>
+		<UID>06-CBDF-BBIS</UID>
+	</attributes>
+	<content>
+		<div class="wrapper  v-middle">
+			<div class="container">
+				<div class="welcomeScreen">
+					<img class="animated flipInY" src="./img/Convert fraction to decimal.jpg" alt="" title="" />
+					<h1 class="animated fadeIn delay-1s">Convert <strong>fractions</strong> to <strong>decimals</strong></h1>
+
+					<div id="play" class="animated fadeIn delay-1s" >
+						<span>
+							Start Lesson
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>	
+		
+	</content>
+	<steps>
+<pause delay="1"/>
+		<next customID="play"/>
+		</steps>
+	
+</problem>

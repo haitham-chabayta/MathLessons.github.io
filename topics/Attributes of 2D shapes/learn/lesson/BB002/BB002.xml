@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<problem>
+	<attributes>
+		<UID>06-CBDF-BB002</UID>
+	</attributes>
+	 <content>
+		<div class="wrapper xml2">
+			<div class="container">
+				<h1 class="center animated zoomIn">Identify <b>quadrilaterals</b> with <b>parallel lines:</b></h1>
+
+				<div class="p-shapes-box center">
+					<section>
+					<div id="col1" class="none">
+						<div class="animated fadeInLeft delay-5s" id="col1-row1"><span>No parallel sides</span></div>
+						<img class="animated wobble" id="kite-p" src="img/kite.png"/>
+						<div class="animated flipInY delay-3s">Kite</div>
+					</div>
+					<div id="col2" class="none animated bounceIn">
+							<div class="animated fadeInRight delay-3s" id="col2-row1"><span>One pair of parallel sides</span></div>
+							<img class="animated pulse delay-5s" id="trap-p" src="img/trap.png"/>
+							<div id="trap-p-text" class="animated flipInY delay-1s">Trapezoid</div> 
+					</div>
+					<div id="col3" class="none">
+							<div id="col3-row1" class="animated fadeInRight delay-3s" ><span>Two pairs of parallel sides</span></div>
+							<div id="rec-div" class="animated flipInX">
+								<img id="rec-p" src="img/rec.png" class="animated pulse delay-5s"/>
+								<div>Rectangle</div>
+							</div>
+							<div id="par-div" class="animated flipInX delay-1s">
+								<img id="par-p" src="img/par.png" class="animated pulse delay-5s"/>
+								<div>Parallelogram</div>
+							</div>
+							<div id="square-div" class="animated flipInX delay-2s">
+								<img id="square-p" src="img/square.png" class="animated pulse delay-5s"/>
+								<div>Square</div>
+							</div> 
+					</div>
+					</section>
+				</div>
+			</div>
+		</div>
+	</content>
+	<steps>
+		<step soundID="AU0035">
+		</step>
+		<step>
+			<show id="col1" delay="0.5"/>
+		</step>
+		<pause delay="5"/>
+		<step soundID="AU0040">
+		</step>
+		<step>
+			<show id="col2" delay="0.5"/>
+		</step>
+		<pause delay="3"/>
+		<step soundID="AU0045">
+		</step>
+		<step>
+			<show id="col3" delay="0.5"/>
+		</step>
+		<step soundID="AU0050">
+		</step>
+		<next/>
+	</steps>
+	<sounds>
+		<sound id="AU0035" src="sounds/AU0035.mp3">	
+		</sound>
+		<sound id="AU0040" src="sounds/AU0040.mp3">	
+		</sound>
+		<sound id="AU0045" src="sounds/AU0045.mp3">	
+		</sound>
+		<sound id="AU0050" src="sounds/AU0050.mp3">	
+		</sound>
+	</sounds>
+</problem>

@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<problem>
+	<attributes>
+		<UID>6-T01-BB005</UID>
+	</attributes>
+	<content>
+	<div class="wrapper xml10">
+		<div class="container">
+			<div class="template-nine">
+			<h1 class="pd50 center animated zoomIn"><b>Match</b> each <b>quadrilateral</b> to the <b>correct description</b>.</h1>   
+			<div class="flex">      
+            <div class="dnd-row-target-box">
+                <div class="dnd-row-target">
+                    <div class="dnd-col col-text">
+					<p><b>Rectangle:</b></p>
+					<span id="t1">They have four right angles.</span><br/>
+					<span id="t2">The opposite sides are equal.</span><br/>
+					<span id="t3">The opposite sides are parallel.</span>		
+					</div>
+                    <div id="trg1" class="dnd-col"><dndTarget id="ta1" width="285"/></div>
+					<div id="trg1a" class="dnd-col"><dndTarget id="ta1a" width="285"/></div>
+                </div>
+                   <div class="dnd-row-target">
+                    <div class="dnd-col col-text">
+					<p><b>Rhombus:</b></p>
+					<span id="t4">All sides have equal length.</span><br/>
+					<span id="t5">The opposite angles are equal.</span><br/>
+					<span id="t6">The opposite sides are parallel.</span>
+					</div>
+                    <div id="trg2" class="dnd-col"><dndTarget id="ta2" width="285"/></div>
+					<div id="trg2a" class="dnd-col"><dndTarget id="ta2a" width="285"/></div>
+                </div>
+                   <div class="dnd-row-target">
+                    <div class="dnd-col col-text">
+					<p><b>Square:</b></p>
+					<span id="t7">The opposite sides are equal in length.</span><br/>
+					<span id="t8">The opposite sides are parallel.</span><br/>
+					<span id="t9">They have right angles.</span>
+					</div>
+                    <div id="trg3" class="dnd-col"><dndTarget id="ta3" width="285"/></div>
+					<div id="trg3a" class="dnd-col"><dndTarget id="ta3a" width="285"/></div>
+                </div>
+				<div class="dnd-row-target">
+                    <div class="dnd-col col-text">
+					<p><b>Parallelogram:</b></p>
+					<span id="t10">The opposite sides are equal in length.</span><br/>
+					<span id="t11">The opposite sides are parallel.</span>
+					</div>
+                    <div id="trg4" class="dnd-col"><dndTarget id="ta4" width="285"/></div>
+					<div id="trg4a" class="dnd-col"><dndTarget id="ta4a" width="285"/></div>
+                </div>
+            </div>
+                <div id="dnd-1" class="dnd-row-card">
+                <div class="dnd-col"><dndCard id="c1k" width="285" ><img id="rho-dnd" src="img/rhombus.png"/></dndCard></div>
+                <div class="dnd-col"><dndCard id="c2k" width="285" ><img id="rec-dnd" src="img/rec.png"/></dndCard></div>
+                <div class="dnd-col"><dndCard id="c3k" width="285" ><img id="par-dnd" src="img/par.png"/></dndCard></div>
+				<div class="dnd-col"><dndCard id="c4k" width="285" ><img id="square-dnd" src="img/square.png"/></dndCard></div>
+                </div>
+				<div id="dnd-2" class="dnd-row-card none">
+                <div class="dnd-col"><dndCard id="c1ka" width="285" ><img id="rho-dnd" src="img/rhombus.png"/></dndCard></div>
+                <div class="dnd-col"><dndCard id="c2ka" width="285" ><img id="rec-dnd" src="img/rec.png"/></dndCard></div>
+                <div class="dnd-col"><dndCard id="c3ka" width="285" ><img id="par-dnd" src="img/par.png"/></dndCard></div>
+				<div class="dnd-col"><dndCard id="c4ka" width="285" ><img id="square-dnd" src="img/square.png"/></dndCard></div>
+                </div>
+				</div>
+			</div>
+			<div id="hint1" class="hint-box animated fadeInDown none">
+					<span id="firstBanner" class="hint-banner">
+					<p>Hint!</p></span>
+					<div id="big" class="inner-text-box center">
+					<span>Rectangles and square have 4 right angles.</span>
+					</div>
+					<div class="arrow-down"><!-- </div> --></div>
+					</div>
+					<div class="icon-for-hint">
+					<div id="icon1" class="curio-icon animated bounce none">
+					<!-- </div> -->
+					</div>	
+				</div>
+		</div>	
+	</div>	
+	</content>
+
+	<steps>
+    <step soundID="AU0080">
+	</step>
+  		<submit id="Q3">
+      <controls>
+        <dndControl id="dnd1" correctAnswer="c2k,c1k,c4k,c3k" cards="c1k,c2k,c3k,c4k" targets="ta1,ta2,ta3,ta4"/>
+      </controls>
+    </submit>
+    <step if="Q3.correct">
+      <dndMove id="dnd1"/>
+    </step>
+	<step if="Q3.correct" soundID="AU0090">
+		<circleMarker id="trg1" delay="1"/>
+		<highlight id="t1" at="center" color="rgb(0, 220, 238)" delay="2.5"/>
+		<highlight id="t2" at="center" color="rgb(0, 220, 238)" delay="5"/>
+		<highlight id="t3" at="center" color="rgb(0, 220, 238)" delay="6"/>
+		<circleMarker id="trg2" delay="9"/>
+		<highlight id="t4" at="center" color="rgb(0, 220, 238)" delay="10.5"/>
+		<highlight id="t5" at="center" color="rgb(0, 220, 238)" delay="13"/>
+		<highlight id="t6" at="center" color="rgb(0, 220, 238)" delay="14"/>
+		<circleMarker id="trg3" delay="16"/>
+		<highlight id="t7" at="center" color="rgb(0, 220, 238)" delay="17.5"/>
+		<highlight id="t8" at="center" color="rgb(0, 220, 238)" delay="18.5"/>
+		<highlight id="t9" at="center" color="rgb(0, 220, 238)" delay="22"/>
+		<circleMarker id="trg4" delay="26"/>
+		<highlight id="t10" at="center" color="rgb(0, 220, 238)" delay="27.5"/>
+		<highlight id="t11" at="center" color="rgb(0, 220, 238)" delay="28.5"/>
+	</step>
+	<step if="Q3.incorrect">
+				<show id="icon1" delay="1"/>
+	</step>
+			<pause delay="1"/>
+			<step if="Q3.incorrect" soundID="AU0085">
+				<show id="hint1"/>
+			</step>
+			<step if="Q3.incorrect">
+				<hide id="icon1" delay="2"/>
+				<hide id="hint1" delay="2"/>
+				<hide id="dnd-1" delay="3"/>
+				<hide id="trg1" delay="3"/>
+				<hide id="trg2" delay="3"/>
+				<hide id="trg3" delay="3"/>
+				<hide id="trg4" delay="3"/>
+				<show id="dnd-2" delay="4.5"/>
+				<css id="trg1a"  style="display:inline-flex" delay="4.5"/>
+				<css id="trg2a" style="display:inline-flex" delay="4.5"/>
+				<css id="trg3a" style="display:inline-flex" delay="4.5"/>
+				<css id="trg4a" style="display:inline-flex" delay="4.5"/>
+			</step>
+			<pause delay="1"/>
+			<submit if="Q3.incorrect" id="Q4">
+				<controls>
+					<dndControl id="dnd1a" correctAnswer="c2ka,c1ka,c4ka,c3ka" cards="c1ka,c2ka,c3ka,c4ka" targets="ta1a,ta2a,ta3a,ta4a"/>
+				</controls>
+    		</submit>
+    <step if="Q3.incorrect">
+      <dndMove id="dnd1a"/>
+    </step>
+	<step if="Q3.incorrect" soundID="AU0090">
+		<circleMarker id="trg1a" delay="1"/>
+		<highlight id="t1" at="center" color="rgb(0, 220, 238)" delay="2.5"/>
+		<highlight id="t2" at="center" color="rgb(0, 220, 238)" delay="5"/>
+		<highlight id="t3" at="center" color="rgb(0, 220, 238)" delay="6"/>
+		<circleMarker id="trg2a" delay="9"/>
+		<highlight id="t4" at="center" color="rgb(0, 220, 238)" delay="10.5"/>
+		<highlight id="t5" at="center" color="rgb(0, 220, 238)" delay="13"/>
+		<highlight id="t6" at="center" color="rgb(0, 220, 238)" delay="14"/>
+		<circleMarker id="trg3a" delay="16"/>
+		<highlight id="t7" at="center" color="rgb(0, 220, 238)" delay="17.5"/>
+		<highlight id="t8" at="center" color="rgb(0, 220, 238)" delay="18.5"/>
+		<highlight id="t9" at="center" color="rgb(0, 220, 238)" delay="22"/>
+		<circleMarker id="trg4a" delay="26"/>
+		<highlight id="t10" at="center" color="rgb(0, 220, 238)" delay="27.5"/>
+		<highlight id="t11" at="center" color="rgb(0, 220, 238)" delay="28.5"/>
+	</step>
+	<next/>
+  	</steps>
+	<sounds>
+		<sound id="AU0080" src="sounds/AU0080.mp3">	
+		</sound>
+		<sound id="AU0085" src="sounds/AU0085.mp3">	
+		</sound>
+		<sound id="AU0090" src="sounds/AU0090.mp3">	
+		</sound>
+	</sounds>
+</problem>

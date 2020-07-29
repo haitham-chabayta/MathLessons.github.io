@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<problem>
+	<attributes>
+		<UID>06-CBDF-BB001</UID>
+	</attributes>
+	 <content>
+		<div class="wrapper">
+			<div class="container xml1 center">
+
+				<div class="marginAuto curio-icon animated bounce delay-4s">
+				</div>
+
+				<h1 class="center  animated zoomIn">Select the <b>quadrilateral</b> with <b>parallel lines:</b></h1>
+
+				<div id="options1" class="options-box center none">
+						<p>
+							<div  class="animated bounceIn inline-block">
+								<choose id="c1">
+								<img id="option-img1" src="img/par.png"/>
+								</choose>
+							</div>
+							<div class="animated bounceIn delay-1s inline-block">
+								<choose id="c2">
+								<img id="option-img2" src="img/obtuse.png"/>
+								</choose>
+							</div>
+							<div class="animated bounceIn delay-2s inline-block">
+								<choose id="c3">
+								<img id="option-img3" src="img/circle.png"/>
+								</choose>
+							</div>
+						</p>
+				</div>
+				<div id="options1a" class=" animated bounceIn options-box center none">
+						<p>
+						<choose id="c1a">
+						<img id="option-img1" src="img/par.png"/>
+						</choose>
+						<choose id="c2a">
+						<img id="option-img2" src="img/obtuse.png"/>
+						</choose>
+						<choose id="c3a">
+						<img id="option-img3" src="img/circle.png"/>
+						</choose>
+						</p>
+				</div>
+				<div id="hint1" class="hint-box animated fadeInDown none">
+           			<span id="firstBanner" class="hint-banner">
+            		<p>Hint!</p></span>
+            		<div id="big" class="inner-text-box center">
+                	<span>Parallel lines never meet.</span>
+            	</div>
+				<div class="arrow-down"><!-- </div> --></div>
+            	</div>
+				<div class="icon-for-hint">
+            	<div id="icon1" class="curio-icon animated bounce none">
+            	<!-- </div> -->
+				</div>	
+				</div>	
+			</div>
+		</div>
+	</content>
+	<steps>
+	<step soundID="AU0020">
+	</step>
+	<step>
+		<show id="options1"/>
+	</step>
+		<submit id="Q1">
+			<controls>
+				<chooseControl id="rg1" buttons="c1,c2,c3" correctAnswer="c1"/>
+			</controls>
+		</submit>
+		<step if="Q1.correct" soundID="AU0030">
+				<replaceAnswerToggle id="rg1"/>
+		</step>
+		<step if="Q1.incorrect">
+				<show id="icon1" delay="1"/>
+			</step>
+			<pause delay="1"/>
+			<step if="Q1.incorrect" soundID="AU0025">
+				<show id="hint1"/>
+			</step>
+			<step if="Q1.incorrect">
+				<hide id="icon1" delay="1"/>
+				<hide id="hint1" delay="1"/>
+				<hide id="options1" delay="2"/>
+				<show id="options1a" delay="3"/>
+			</step>
+			<submit if="Q1.incorrect" id="Q1a">
+			<controls>
+				<chooseControl id="rg2" buttons="c1a,c2a,c3a" correctAnswer="c1a" />
+			</controls>
+			</submit>
+			<step if="Q1.incorrect" soundID="AU0030">
+				<replaceAnswerToggle id="rg2"/>
+			</step>
+		<next/>
+	</steps>
+	<sounds>
+		<sound id="AU0020" src="sounds/AU0020.mp3">	
+		</sound>
+		<sound id="AU0025" src="sounds/AU0025.mp3">	
+		</sound>
+		<sound id="AU0030" src="sounds/AU0030.mp3">	
+		</sound>
+	</sounds>
+</problem>

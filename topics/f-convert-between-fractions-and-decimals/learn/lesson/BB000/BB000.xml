@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<problem>
+	<attributes>
+		<UID>06-CBDF-BB000</UID>
+	</attributes>
+	<content bgcolor="#F8F9FB">
+<div class="wrapper xml0">
+	<div class="container">
+		<h1 class="animated zoomIn">Learning Objective:</h1>
+			<div class="dialog-boxes-components">
+  			
+			<div class="Combined-Shape image animated fadeIn">
+				<!-- <h2></h2> -->
+					<span class="mainimg">.</span>
+					<span class="lo">You will learn how to convert fractions to decimals.</span>
+				</div>
+			</div>	
+	
+		</div>	
+	</div>	
+	</content>
+	<steps>
+<pause delay="1"/>
+	<step soundID="AU0001">
+	<show id="main"/>
+	</step>
+		<next/>
+	</steps>
+
+	<sounds>
+		<sound id="AU0001" src="sounds/AU0001.mp3">
+			<ttsText> In this lesson you will learn  how to convert  fractions to decimals.</ttsText>
+		</sound>
+	</sounds>
+</problem>

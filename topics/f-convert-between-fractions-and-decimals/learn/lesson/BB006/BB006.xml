@@ -1,0 +1,428 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<problem>
+	<attributes>
+		<UID>06-CBDF-BB005</UID>
+	</attributes>
+	 <content>
+		<div class="wrapper">
+			
+			<div class="container  dialog-boxes-components innerContainer xml6">
+			<div class=" template-twelve">
+			<h1 class="animated fadeIn text-center mb30"><strong>Convert <span class="frac"><frac>5|8</frac></span> to a decimal:</strong></h1>
+			<div class="arrowAnimation">
+			<div id="dash1" style="position: absolute;border-left: 4px dashed #6ee9ff;height: 6px;transition:1s;"> </div>
+			<!-- <div id="dash1" style="position: absolute;border-left: 4px dashed #6ee9ff;height: 81px;"> </div> -->
+			<!-- <div id="dash2" style="position: absolute;height: 150px;top: 72px;border-left: 4px dashed #6ee9ff;"> </div>
+			<div id="dash3" style="position: absolute;height: 104px;top: 219px;border-left: 4px dashed #6ee9ff;"> </div>		 -->
+			<!-- <img id="plane1" src="img/plane.png" style="position: absolute;top: -10px;left: -19px;"/> -->
+			<img id="plane1" src="img/plane.png" style="position: absolute;top: -13px;left: -19px;"/>
+			</div>
+		<div class="long-div-block mb30" style="position:relative">
+			<div class="long-div-row" style="position:relative">
+				<span>
+					
+				</span>
+				<span>
+					
+				</span>
+				<span id="row-1-1" class="hide">
+					0
+				</span>
+				<span id="row-1-dot-2" class="hide">
+					.
+				</span>
+				<span id="row-1-3" class="hide">
+					6
+				</span>
+				<span id="row-1-4" class="hide">
+					2
+				</span>
+				<span id="row-1-5" class="hide">
+					5
+				</span>
+			<p id="hide-input-2">
+			<input type="number" id="tb2" class="hide"/>
+				</p>
+			</div>
+			<div id="row-2-line"  class="hide long-div-row-line">
+				<div id="line-div">
+				</div>
+			</div>
+			<div class="long-div-row">
+				<span id="row-3-1" class="hide">
+					8
+				</span>
+				<span id="row-3-line-2" class="hide division-line">
+					
+				</span>
+				<span id="row-3-3" class="hide">
+					5
+				</span>
+				<span id="row-3-dot-4" class="hide">
+					.
+				</span>
+				<span id="row-3-5" class="hide">
+					0
+				</span>
+				<span id="row-3-6" class="hide">
+					0
+				</span>
+				<span id="row-3-7" class="hide">
+					0
+				</span>
+			</div>
+			<div class="long-div-row" style="position:relative;">
+				<span>
+					
+				</span>
+				<span id="row-4-minus" class="hide">
+					-
+				</span>
+				<span id="row-4-1" class="hide">
+					4
+				</span>
+				<span>
+				</span>
+				<span id="row-4-2" class="hide">
+					8
+				</span>
+				<span>
+					
+				</span>
+				<span>
+					
+				</span>
+				<p id="hide-input-1">
+					<input type="number" id="tb1" class="hide"/>
+				</p>
+			</div>
+			<div id="row-5-line" class="hide long-div-row-line medium">
+				<div>
+				</div>
+			</div>
+			<div class="long-div-row">
+				<span>
+					
+				</span>
+				<span>
+					
+				</span>
+				<span>
+					
+				</span>
+				<span>
+					
+				</span>
+				<span id="row-6-1" class="hide">
+					2
+				</span>
+				<span id="row-6-2" class="hide">
+					0
+				</span>
+				<span>
+					
+				</span>
+			</div>
+			<div class="long-div-row">
+				<span>
+					
+				</span>
+				<span>
+					
+				</span>
+				<span>
+					
+				</span>
+				<span id="row-7-minus" class="hide">
+					-
+				</span>
+				<span id="row-7-1" class="hide">
+					1
+				</span>
+				<span id="row-7-2" class="hide">
+					6
+				</span>
+				<span>
+					
+				</span>
+			</div>
+			<div id="row-8-line" class="hide long-div-row-line right">
+				<div>
+				</div>
+			</div>
+			<div class="long-div-row">
+				<span>
+					
+				</span>
+				<span>
+					
+				</span>
+				<span>
+					
+				</span>
+				<span>
+					
+				</span>
+				<span>
+					
+				</span>
+				<span id="row-9-1" class="hide">
+					4
+				</span>
+				<span id="row-9-2" class="hide">
+					0
+				</span>
+			</div>
+				<div class="long-div-row">
+				<span>
+					
+				</span>
+				<span>
+					
+				</span>
+				<span>
+					
+				</span>
+				<span>
+					
+				</span>
+				<span id="row-10-2-minus" class="hide">
+					-
+				</span>
+				<span id="row-10-1" class="hide">
+					4
+				</span>
+				<span id="row-10-2" class="hide">
+					0
+				</span>
+			</div>
+			<div id="row-11-line" class="hide long-div-row-line last">
+				<div>
+				</div>
+				
+			</div>
+				<div class="long-div-row" style="position:relative;">
+				<span>
+					
+				</span>
+				<span>
+					
+				</span>
+				<span>
+					
+				</span>
+				<span>
+					
+				</span>
+				<span>
+					
+				</span>
+				<span>
+					
+				</span>
+				<span id="row-12-1" class="hide">
+					0
+				</span>
+				<p id="hide-input-3">
+					<input type="number" id="tb3" class="hide"/>
+				</p>
+			</div>
+			<img src="./img/arrow-1.png" id="arrow-d-1" class="arrow-down-1" style="display:none;"/>
+			<img src="./img/arrow-1.png" id="arrow-d-2" class="arrow-down-2" style="display:none;"/>
+			</div>
+				<div id="branchPopUp" class="branchPopUp animated pulse">
+                    <img src="./img/union.png" class="mb20"/>
+                        <p class="pb20">Do you want to learn long division in details?</p>
+                    <choose id="c11">No</choose>
+                    <choose id="c12">Yes</choose>
+                </div>
+			<div class="dialog-box-dark image animated fadeIn">
+			<span class="bulb animated flash delay-1s">
+			</span>
+	
+				<p>Divide the numerator by the denominator.</p>
+
+			</div>
+	
+		</div>
+		</div>
+		<div class="cover">
+			</div>
+		</div>
+	</content>
+	<steps>
+<pause delay="1"/>
+	<step soundID="AU0045">
+
+	</step>
+	<step soundID="AU0050">
+		<show id="row-3-3" delay="1"/>
+		<show id="row-2-line" delay="2"/>
+		<show id="row-3-line-2" delay="2"/>
+		<show id="row-3-1" delay="3"/>		
+		<css id="line-div" style="max-width:78px" delay="4"/>
+		<show id="row-3-dot-4" delay="5"/>
+		<show id="row-1-dot-2" delay="6"/>
+		<css id="line-div" style="max-width:187px" delay="6"/>
+		<show id="row-3-5" delay="7"/>		
+		<show id="row-3-6" delay="7"/>
+		<show id="row-3-7" delay="7"/>
+		<show id="row-1-1" delay="8"/>
+		<css id="dash1" style="height:52px;" delay="3"/>	
+		<animate id="plane1" y="22" time="1.1" easing="easeOutExpo" delay="3"/>
+	</step>
+	<step soundID="AU0055">
+	<pointMarker id="row-3-1" at="center" delay="4"/>
+	<circleMarker id="row-3-3,row-3-dot-4,row-3-5" delay="5"/>
+	<show id="row-1-3" delay="7"/>
+	<pointMarker id="row-1-3" at="center" delay="7"/>
+	</step>
+	<step soundID="AU0060-A">	
+	<show id="tb1" delay="2"/>
+	<css id="dash1" style="height:107px;" delay="3"/>	
+	<animate id="plane1" y="83" time="1.1" easing="easeOutExpo" delay="3"/>
+	</step>	
+	<submit id="Q1">
+   		<controls>
+ 			 <control id="tb1" correctAnswer="48" /> 
+   		</controls>
+	</submit>
+	<step if="Q1.correct" soundID="AU0060-B">
+	<replaceAnswerInput id="tb1" delay="1"/>
+	<pointMarker id="row-1-3" at="center" delay="1"/>	
+	<pointMarker id="row-3-1" at="center" delay="2"/>
+	<circleMarker id="row-4-1,row-4-2" delay="3"/>
+	</step>
+	<step if="Q1.incorrect" soundID="AU0060-C">
+	<replaceAnswerInput id="tb1" delay="1"/>
+	<pointMarker id="row-1-3" at="center" delay="1"/>	
+	<pointMarker id="row-3-1" at="center" delay="2"/>
+	<circleMarker id="row-4-1,row-4-2" delay="3"/>
+	</step>
+	<step if="Q1.incorrect || Q1.correct"  soundID="AU0065">			
+			<css style="visibility: hidden;" id="hide-input-1" delay="0.5"/>
+			<show id="row-4-1" delay="4"/>
+			<show id="row-4-2" delay="4"/>
+			<show id="row-4-minus" delay="4.5"/>
+			<show id="row-6-1" delay="4.5"/>
+			<show id="row-5-line" delay="4.5"/>
+			<css id="dash1" style="height:166px;" delay="7"/>	
+			<animate id="plane1" y="127" time="1.1" easing="easeOutExpo" delay="7"/>
+	</step>
+		<step soundID="AU0070">			
+			<blind direction="up" id="arrow-d-1" delay="1" time="4"/>
+			<show id="row-6-2" delay="4.5"/>
+			<css id="dash1" style="height:214px;" delay="3"/>	
+			<animate id="plane1" y="183" time="1.1" easing="easeOutExpo" delay="3"/>
+		
+		</step>
+		<step soundID="AU0075">
+		<pointMarker id="row-3-1" at="center" delay="1"/>
+		<circleMarker id="row-6-1,row-6-2" delay="2"/>
+			<show id="tb2" delay="3"/>
+		</step>
+	<submit id="Q2">
+   <controls>
+ 		<control id="tb2" correctAnswer="2" /> 
+   </controls>
+		</submit>
+
+		<!-- <step if="Q2.incorrect">
+		<show id="branchPopUp" time="1"/>
+		</step> -->
+		 <!-- <submit id="QPopUp" if="Q2.incorrect">
+      		<controls>
+       			 <chooseControl id="trg" buttons="c11,c12" correctAnswer="c12" />
+     		 </controls>
+    		</submit>
+    	<next if="QPopUp.correct" routeTo="BB000/BB000.xml"/> -->
+	<step if="Q2.incorrect || Q2.correct" soundID="AU0080">
+		<css id="branchPopUp" style="visibility:hidden;"/>	
+		<replaceAnswerInput id="tb2" delay="0.5"/>
+		<css style="visibility: hidden;" id="hide-input-2" delay="1"/>
+		<show id="row-1-4" delay="1"/>
+		<show id="row-7-1" delay="2"/>
+		<show id="row-7-2" delay="2"/>
+		<pointMarker id="row-1-4" at="center" delay="1"/>	
+	<pointMarker id="row-3-1" at="center" delay="1.5"/>
+	<circleMarker id="row-7-1,row-7-2" delay="2"/>		
+		<show id="row-7-minus" delay="2"/>
+		<show id="row-8-line" delay="2.5"/>
+		<show id="row-9-1" delay="3"/>
+		
+		<css id="dash1" style="height:295px;" delay="3"/>	
+		<animate id="plane1" y="256" time="1.1" easing="easeOutExpo" delay="3"/>
+
+	</step>
+	<step soundID="AU0085">
+		<show id="row-9-2" delay="4"/>
+		<blind direction="up" id="arrow-d-2" delay="1" time="3"/>
+	</step>
+	<step soundID="AU0090">
+		<show id="row-1-5" delay="1"/>
+		<show id="row-10-2-minus" delay="6"/>
+			
+		<show id="row-10-1" delay="3"/>
+		<show id="row-10-2" delay="3"/>
+		<show id="row-11-line" delay="3"/>
+		<pointMarker id="row-1-5" at="center" delay="4"/>	
+	<pointMarker id="row-3-1" at="center" delay="4.5"/>	
+	<circleMarker id="row-10-1,row-10-2" delay="5"/>
+		<show id="tb3" delay="6"/>
+		<css id="dash1" style="height:344px;" delay="5"/>	
+		<animate id="plane1" y="316" time="1.1" easing="easeOutExpo" delay="5"/>
+
+	</step>
+		<submit id="Q3">
+  			 <controls>
+ 				 <control id="tb3" correctAnswer="0" /> 
+  			 </controls>
+		</submit>
+		<step if="Q3.correct || Q3.incorrect">
+			<replaceAnswerInput id="tb3" delay="1"/>
+			<css style="visibility: hidden;" id="hide-input-3" delay="1"/>
+			<show id="row-12-1" delay="1"/>
+		</step>
+
+		<next/>
+	</steps>
+
+	<sounds>
+		<sound id="AU0045" src="sounds/AU0045.mp3">
+			<ttsText>You will divide the numerator by the denominator using long division.</ttsText>
+		</sound>
+		<sound id="AU0050" src="sounds/AU0050.mp3">
+			<ttsText>8 cannot go into 5. So you need to add a decimal point and a zero after the decimal point as a place holder.</ttsText>
+		</sound>
+		<sound id="AU0055" src="sounds/AU0055.mp3">
+			<ttsText>Now you will divide 50 by 8.  how many times does 8 go into 50?  Yes, that's right 6 times.  Let's see why?</ttsText>
+		</sound>				
+		<sound id="AU0060-A" src="sounds/AU0060-A.mp3">
+			<ttsText>What is 6 times 8?</ttsText>
+		</sound>
+		<sound id="AU0060-B" src="sounds/AU0060-B.mp3">
+			<ttsText>That's right, 6 times 8 is equal to 48.</ttsText>
+		</sound>
+		<sound id="AU0060-C" src="sounds/AU0060-C.mp3">
+			<ttsText>6 times 8 is equal to 48.</ttsText>
+		</sound>
+		<sound id="AU0065" src="sounds/AU0065.mp3">
+			<ttsText>Now you must subtract.  50 minus 48 is equal to 2</ttsText>
+		</sound>
+		<sound id="AU0070" src="sounds/AU0070.mp3">
+			<ttsText>so, place the 2 under the subtraction line, bringing the 0 down next to the 2.</ttsText>
+		</sound>
+		<sound id="AU0075" src="sounds/AU0075.mp3">
+			<ttsText>How many times does 8 go into 20?</ttsText>
+		</sound>
+		<sound id="AU0080" src="sounds/AU0080.mp3">
+			<ttsText>2 times 8 is 16, and 20 minus 16 is 4</ttsText>
+		</sound>
+		<sound id="AU0085" src="sounds/AU0085.mp3">
+			<ttsText>now you will place the 4 under the subtraction line, bringing the 0 down next to the 4</ttsText>
+		</sound>	
+		<sound id="AU0090" src="sounds/AU0090.mp3">
+			<ttsText>8 goes into 40, five times. 5 times 8 is equal to 40. What is 40 minus 40?</ttsText>
+		</sound>			
+	</sounds>
+</problem>

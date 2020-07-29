@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<problem>
+	<attributes>
+		<UID>6-T01-BB001</UID>
+	</attributes>
+	<content>
+	<div class="wrapper xml10">
+		<div class="container">
+			<div class="template-eight template-seven">
+				
+			 <h1 class=" mb30 text-center animated slideInDown">Title here:</h1>
+        <p class="text-center">
+        In algebra, letter symbols represent numbers.
+        In an equation, the unknown or variable usually has a value.
+        </p>
+
+      <div id="boxCont" class="mt30 hide boxCont text-center ">
+          <div class="equationBox">
+           <span id="ar3" class="hide bidownArrows">
+			        </span>
+               &#120013; <span class="operator add small15">
+			   </span> 5
+              <span id="ar2" class="hide ldownArrows">
+			        </span>
+              <span id="text33" class="hide desc1">
+                  <span class="blue">3.</span> Inverse of <span class="operator add small15">
+			   </span> is <span class="operator sub small15">
+			   </span>
+              </span>
+              <span id="text22" class="hide desc2">
+                 <span class="blue">2.</span> Operation
+              </span>
+          </div>
+
+          <div class="equationBox">
+               &#120013; <span class="operator add small15">
+			   </span> 5 = 8
+              <span class="circle">
+              </span>
+              <span id="ar1" class="hide rdownArrows">
+			        </span>
+              <span id="text11" class="hide desc3">
+                 <span class="blue">1.</span> Variable
+              </span>
+          </div>
+      </div>
+
+			</div>	
+		</div>	
+	</div>	
+	</content>
+
+	<steps>
+  		
+  	</steps>
+</problem>

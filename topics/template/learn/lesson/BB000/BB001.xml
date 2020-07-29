@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<problem>
+  <attributes>
+    <UID>6-T01-BB000</UID>
+  </attributes>
+  <content>
+    <div class="wrapper xml1">
+      <div class="text-center mt30">
+        <p class="mb10">Drang and Drop 
+          
+          <b>text:</b>
+        </p>
+        <div id="cta1" >
+          <dndTarget id="ta1" width="285"/>
+        </div>
+        <div id="cta2">
+          <dndTarget id="ta2" width="285"/>
+        </div>
+        <div id="cta3" >
+          <dndTarget id="ta3" width="285"/>
+        </div>
+        <div  id="cc1">
+          <dndCard id="c1k" width="285" >more than</dndCard>
+        </div>
+        <div  id="cc2">
+          <dndCard id="c2k" width="285" >less than</dndCard>
+        </div>
+        <div  id="cc3">
+          <dndCard id="c3k" width="285" >times</dndCard>
+        </div>
+      </div>
+    <div class="text-center mt30">
+        <p class="mb10">Drop Down Menu</p>
+        <select id="listbox" style="width:150px;">
+          <option value="multiply">multiply</option>
+          <option value="add">add</option>
+          <option value="subtract">subtract</option>
+          <option value="divide">divide</option>
+        </select>
+      </div>
+      <div class="text-center mt30">
+        <p class="mb10">Multiple Choice</p>
+        <choose id="c11">Option 1</choose>
+        <choose id="c12">Option 2</choose>
+        <choose id="c13">Option 3</choose>
+        <choose id="c14" >Option 4</choose>
+      </div>
+      <div class="text-center mt30">
+        <p class="mb10">Checkbox [you can select more than one box]</p>
+        <div>
+          <input type="checkbox" id="c1"/>
+          <label for="c1">Option 1</label>
+        </div>
+        <div>
+          <input type="checkbox" id="c2"/>
+          <label for="c2">Option 2</label>
+        </div>
+      </div>
+      <div class="text-center mt30">
+        <p class="mb10">Radio Buttons [you can select one box only]</p>
+        <div>
+          <input type="radio" name="rg2" id="r2a"/>
+          <label for="r2a">Option 1</label>
+        </div>
+        <div >
+          <input type="radio" name="rg2" id="r2b"/>
+          <label for="r2b">Option 2</label>
+        </div>
+      </div>
+      <div class="text-center mt30">
+        <p class="mb10">input Box:</p>
+        <div>
+          <input id="numberInput" type="number"/>
+        </div>
+      </div>
+    
+    </div>
+  </content>
+  <steps>
+<pause delay="1"/>
+  <submit id="Q6">
+      <controls>
+        <dndControl id="dnd1" correctAnswer="c1k,c2k,c3k" cards="c1k,c2k,c3k" targets="ta1,ta2,ta3"/>
+      </controls>
+    </submit>
+    <step if="Q6.incorrect || Q6.correct">
+      <dndMove id="dnd1"/>
+    </step>
+    <submit id="Q1" >
+      <controls>
+        <control id="listbox" correctAnswer="add"/>
+      </controls>
+    </submit>
+    <step if="Q1.incorrect || Q1.correct">
+      <replaceAnswerInput id="listbox"/>
+    </step>
+    <submit id="Q2">
+      <controls>
+        <chooseControl id="rg1" buttons="c11,c12,c13,c14" correctAnswer="c13" />
+      </controls>
+    </submit>
+    <step  if="Q2.incorrect || Q2.correct">
+      <replaceAnswerToggle id="rg1" />
+    </step>
+    <submit id="Q3">
+      <controls>
+        <checkboxControl id="rc1" buttons="c1,c2" correctAnswer="c1,c2"/>
+      </controls>
+    </submit>
+    <step if="Q3.correct || Q3.incorrect ">
+      <replaceAnswerToggle id="rc1" delay="2"/>
+    </step>
+    <submit id="Q4">
+      <controls>
+        <radioControl id="rg2" correctAnswer="r2a" buttons="r2a,r2b"/>
+      </controls>
+    </submit>
+    <step if="Q4.correct || Q4.incorrect ">
+      <replaceAnswerToggle id="rg2"/>
+    </step>
+    <submit id="Q5">
+      <controls>
+        <control id="numberInput" correctAnswer="1"/>
+      </controls>
+    </submit>
+    <step if="Q5.incorrect || Q5.correct">
+      <replaceAnswerInput id="numberInput" delay="1"/>
+    </step>
+    
+    <next/>
+  </steps>
+</problem>

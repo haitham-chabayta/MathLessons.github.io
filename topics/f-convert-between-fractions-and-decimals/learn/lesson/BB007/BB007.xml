@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<problem>
+	<attributes>
+		<UID>6-T01-BB001</UID>
+	</attributes>
+	<content>
+	<div class="wrapper">
+		<div class="container">
+			<div class="xml7">
+			<h2 class="mb30 text-center animated slideInDown">Complete the table:</h2>
+					<div class="left-row-box">
+						<div class="left-col animated zoomInDown"><h2>Fraction</h2></div>
+						<div class="left-col"><span class="box animated zoomInLeft delay-1s"><frac>2 | 4</frac></span></div>
+						<div id="q2-left" class="left-col" style="display:none"><span class="box animated zoomInLeft delay-1s"><frac>80 | 7</frac></span></div>
+						<div id="q3-left" class="left-col" style="display:none"><span class="box animated zoomInLeft delay-1s"><frac>256 | 3</frac></span></div>
+					
+				</div>
+					<div class="mid-row-box">
+					<div class="left-col animated zoomInDown"><h2> </h2></div>
+					<div class="left-col">
+					<div id="center1" class="dialog-box-light image animated fadeIn" style="display:none">
+				<span id="t1" class="animated zoomIn t-group t1">4</span>
+				<span id="t3" class="img-background animated zoomIn t-group" >2</span>
+				<span id="t2" class="animated zoomIn t-group" > = <strong style="color:#00dcee">0.5</strong></span>
+				</div>
+				</div>
+				<div class="left-col">
+					<div id="center2" class="dialog-box-light image animated fadeIn" style="display:none">
+				<span id="t1" class="animated zoomIn t-group t1">7</span>
+				<span id="t3" class="img-background animated zoomIn t-group" >80</span>
+				<span id="t2" class="animated zoomIn t-group"> = <strong style="color:#00dcee">11.42</strong></span>
+				</div>
+				</div>
+				<div class="left-col">
+					<div id="center3" class="dialog-box-light image animated fadeIn" style="display:none">
+				<span id="t1" class="animated zoomIn t-group t1">3</span>
+				<span id="t3" class="img-background animated zoomIn t-group" >256</span>
+				<span id="t2" class="animated zoomIn t-group" > = <strong style="color:#00dcee">85.33</strong></span>
+				</div>
+				</div>
+				</div>
+					<div class="right-row-box">
+						<div class="right-col animated zoomInDown animated zoomInDown"><h2>Decimal</h2></div>
+						<div class="right-col animated zoomInRight delay-1s"> 
+						<select id="listbox1">
+							<option value="0.05">0.05</option>
+							<option value="1.5">1.5</option>
+							<option value="0.5">0.5</option>
+						</select>
+						</div>
+						<div class="right-col animated zoomInRight delay-1s"> 
+						<select id="listbox2" style="display:none">
+							<option value="8.07">8.07</option>
+							<option value="11.42">11.42</option>
+							<option value="1.142">1.142</option>
+						</select>
+						</div>						
+						<div class="right-col animated zoomInRight delay-1s"> 
+						<select id="listbox3" style="display:none">
+							<option value="2.56">2.56</option>
+							<option value="85.33">85.33</option>
+							<option value="8.53">8.53</option>
+						</select>
+						</div>
+					</div>
+			<!-- <img id="CurioThink" class="animated bounce" src="./img/icon.png"/> -->
+			</div>	
+		</div>	
+	</div>	
+	</content>
+
+	<steps>
+	<step soundID="AU0095">
+	</step>
+	<submit id="Q1">
+	<controls>
+		<control id="listbox1" correctAnswer="0.5"/>
+	</controls>
+	</submit>
+	<step if="Q1.incorrect||Q1.correct">
+		<hide id="CurioThink"/>
+		<replaceAnswerInput id="listbox1" delay="1.0"/>
+		<show id="center1" delay="2"/>
+		<show id="q2-left" delay="2.5"/>
+		<show id="listbox2" delay="4"/>
+		</step>
+	<submit id="Q2">
+	<controls>
+		<control id="listbox2" correctAnswer="11.42"/>
+	</controls>	
+	</submit>
+	<step if="Q2.incorrect||Q2.correct">
+		<hide id="CurioThink"/>
+		<replaceAnswerInput id="listbox2" delay="1.0"/>
+		<show id="center2" delay="2"/>		
+		<show id="q3-left" delay="2.5"/>
+		<show id="listbox3" delay="4"/>
+		</step>
+	<submit id="Q3">
+	<controls>
+		<control id="listbox3" correctAnswer="85.33"/>
+	</controls>	
+		</submit>
+		<step if="Q3.incorrect||Q3.correct">
+		<hide id="CurioThink"/>
+		<replaceAnswerInput id="listbox3" delay="1.0"/>
+		<show id="center3" delay="2"/>
+		</step>
+		
+		
+	<next/>
+  		
+  	</steps>
+	  
+	<sounds>
+		<sound id="AU0095" src="sounds/AU0095.mp3">
+			<ttsText>Select the decimal that matches the fraction on the left from the drop down menu.</ttsText>
+		</sound>
+	</sounds>
+
+</problem>

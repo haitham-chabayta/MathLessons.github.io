@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<problem>
+	<attributes>
+		<UID>06-CBDP-BB003</UID>
+	</attributes>
+	<content bgcolor="#F8F9FB">
+		<div class="wrapper xml4">
+			<div class="container ">
+				<h1 class="header-r center"><b>Quadrilaterals</b> with only <b>right angles</b></h1>
+				<div class="box-r center">
+					<div class="inline img-r">
+						<img id="right" src="img/right.png"/>
+					</div>
+					<div class="inline-block dialog-r">
+						<div class="dialog-boxes-components">
+						<div class="dialog-box-dark image animated fadeIn">
+						<span class="pin animated rotateIn delay-1s">
+						</span>
+						<span class="blue">Perpendicular lines</span> are the lines that meet or cross each other to make a <span class="blue">right angle</span>.
+						</div>
+						</div>
+					</div>
+				</div>
+				<h1 id="header-opt-r" class="animated zoomIn center pb20 none">Select the <b>shapes</b> that <b>only</b> have <b>right angles</b>:</h1>
+				<ul  id="options2" class="center none">
+					<li class="li-flex animated flipInX delay-1s pb10"><choose id="c5">
+					<h1 class="opt-text">Rectangle</h1>
+					<img class="opt-img" src="img/rec-1.png"></img>
+					</choose>
+						<span id="arrow1" class="HbidirectionalArrow small animated rubberBand none">
+						</span>
+						<img id="rec-option" class="animated bounceIn none" src="img/rec.png"/>
+					</li>
+					<li class="li-flex animated flipInX delay-1s pb10"><choose id="c6">
+						<h1 class="opt-text">Square</h1>
+						<img class="opt-img1" src="img/sqr-1.png"></img>
+						</choose>
+						<span id="arrow2" class="HbidirectionalArrow small animated rubberBand none">
+						</span>
+						<img id="sqr-option" class="animated bounceIn none" src="img/square.png"/>
+					</li>
+					<li class="li-flex animated flipInX delay-1s pb10"><choose id="c7">
+						<h1 class="opt-text">Trapezoid</h1>
+						<img class="opt-img2" src="img/trap-1.png"></img>
+						</choose>
+						<span id="arrow3" class="HbidirectionalArrow small hidden none">
+						</span>
+						<img id="rec-option-1" class="none hidden" src="img/rec.png"/>
+					</li>
+					<li class="li-flex animated flipInX delay-1s"><choose id="c8">
+						<h1 class="opt-text">Parallelogram</h1>
+						<img class="opt-img3" src="img/par-1.png"></img>
+						</choose>	
+						<span id="arrow4" class="HbidirectionalArrow small none hidden">
+						</span>
+						<img id="rec-option-2" class="none hidden" src="img/rec.png"/>
+					</li>
+				</ul>
+				<ul  id="options2a" class="center none">
+					<li class="li-flex animated flipInX delay-1s pb10"><choose id="c5a">
+					<h1 class="opt-text">Rectangle</h1>
+					<img class="opt-img" src="img/rec-1.png"></img>
+					</choose>
+						<span id="arrow1" class="HbidirectionalArrow small animated rubberBand none">
+						</span>
+						<img id="rec-option" class="animated bounceIn none" src="img/rec.png"/>
+					</li>
+					<li class="li-flex animated flipInX delay-1s pb10"><choose id="c6a">
+						<h1 class="opt-text">Square</h1>
+						<img class="opt-img1" src="img/sqr-1.png"></img>
+						</choose>
+						<span id="arrow2" class="HbidirectionalArrow small animated rubberBand none">
+						</span>
+						<img id="sqr-option" class="animated bounceIn none" src="img/square.png"/>
+					</li>
+					<li class="li-flex animated flipInX delay-1s pb10"><choose id="c7a">
+						<h1 class="opt-text">Trapezoid</h1>
+						<img class="opt-img2" src="img/trap-1.png"></img>
+						</choose>
+						<span id="arrow3" class="HbidirectionalArrow small hidden none">
+						</span>
+						<img id="rec-option-1" class="none hidden" src="img/rec.png"/>
+					</li>
+					<li class="li-flex animated flipInX delay-1s"><choose id="c8a">
+						<h1 class="opt-text">Parallelogram</h1>
+						<img class="opt-img3" src="img/par-1.png"></img>
+						</choose>	
+						<span id="arrow4" class="HbidirectionalArrow small none hidden">
+						</span>
+						<img id="rec-option-2" class="none hidden" src="img/rec.png"/>
+					</li>
+				</ul>
+				<div id="hint1" class="hint-box animated fadeInDown none">
+					<span id="firstBanner" class="hint-banner">
+					<p>Hint!</p></span>
+					<div id="big" class="inner-text-box center">
+					<span>Lines cross each other and form a right angle.</span>
+					</div>
+					<div class="arrow-down"><!-- </div> --></div>
+					</div>
+					<div class="icon-for-hint">
+					<div id="icon1" class="curio-icon animated bounce none">
+					<!-- </div> -->
+					</div>	
+				</div>
+			</div>
+		</div>
+	</content>
+	<steps>
+		<pause delay="2"/>
+		<step soundID="AU0065">
+			<show id="header-opt-r"/>
+			<show id="options2" delay="3"/>
+		</step>
+		<submit id="Q1">
+			<controls>
+				<chooseControl id="rg3" buttons="c5,c6,c7,c8" correctAnswer="c5,c6"/>
+			</controls>
+		</submit>
+		<step if="Q1.correct">
+			 	<hide id="options2a"/>
+				<replaceAnswerToggle id="rg3" delay="1"/>
+				<show id="arrow1" delay="2"/>
+				<show id="arrow2" delay="2"/>
+				<css id="arrow3" style="display:inline" delay="2"/>
+				<css id="arrow4" style="display:inline" delay="2"/>
+				<show id="rec-option" delay="3.5"/>
+				<show id="sqr-option" delay="3.5"/>
+				<css id="rec-option-1" style="display:inline" delay="3.5"/>
+				<css id="rec-option-2" style="display:inline" delay="3.5"/>
+		</step>
+		<step if="Q1.correct" soundID="AU0075">
+		</step>
+		<step if="Q1.incorrect">
+				<show id="icon1" delay="1"/>
+			</step>
+			<pause delay="1"/>
+			<step if="Q1.incorrect" soundID="AU0070">
+				<show id="hint1"/>
+			</step>
+			<step if="Q1.incorrect">
+				<hide id="icon1" delay="2"/>
+				<hide id="hint1" delay="2"/>
+				<hide id="options2" delay="3"/>
+				<show id="options2a" delay="4.5"/>
+			</step>
+			<pause delay="1"/>
+			<submit if="Q1.incorrect" id="Q1a">
+			<controls>
+				<chooseControl id="rg3a" buttons="c5a,c6a,c7a,c8a" correctAnswer="c5a,c6a" />
+			</controls>
+			</submit>
+			<step if="Q1.incorrect">
+				<replaceAnswerToggle id="rg3a" delay="1"/>
+				<show id="arrow1" delay="4"/>
+				<show id="arrow2" delay="4"/>
+				<css id="arrow3" style="display:inline" delay="4"/>
+				<css id="arrow4" style="display:inline" delay="4"/>
+				<show id="rec-option" delay="6.5"/>
+				<show id="sqr-option" delay="6.5"/>
+				<css id="rec-option-1" style="display:inline" delay="6.5"/>
+				<css id="rec-option-2" style="display:inline" delay="6.5"/>
+			</step>
+			<step if="Q1.incorrect" soundID="AU0075">
+			</step>
+		<next/>
+	</steps>
+	<sounds>
+		<sound id="AU0065" src="sounds/AU0065.mp3">	
+		</sound>
+		<sound id="AU0070" src="sounds/AU0070.mp3">	
+		</sound>
+		<sound id="AU0075" src="sounds/AU0075.mp3">	
+		</sound>
+	</sounds>
+</problem>

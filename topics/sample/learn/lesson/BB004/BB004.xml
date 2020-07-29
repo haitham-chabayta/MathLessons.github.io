@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<problem>
+	<attributes>
+		<UID>6-T01-BB001</UID>
+	</attributes>
+	<content>
+		<div class="wrapper xml4">
+			<div class="container">
+		<div class="template-three">
+		 <h1 class="mtb30 animated slideInDown">Think of a number</h1>
+        <ul class="verticalList">
+          <li id="text1" class="animated slideInLeft">I’m thinking of a number. When I multiply the number by 5 the answer is 15.</li>
+          <li id="text2" class="animated slideInLeft">What number am I thinking of?</li>
+          <li id="text3" class="animated slideInLeft">We can write this as an equation.</li>
+          <li id="text4" class="animated slideInLeft">Instead of using <span class="blue">?</span> for the number I am thinking of, let’s use the letter <span class="blue">x</span>.</li>
+        </ul>
+
+
+        <div id="text5" class="boxeCont">
+            <span class="equation-box">
+                 &#120013;
+            </span>
+            <strong class="smallText">
+                <div>multiply by 5</div>
+                <span class="arrow arrowRight">
+				</span>
+            </strong>
+            <span class="equation-box">
+              &#120013; <span class="operator add small27">
+			  </span> 5
+            </span>
+            <strong class="smallText">
+              <div >the answer is 15</div>
+               <span class="arrow arrowRight">
+				</span>
+            </strong>
+            <span class="equation-box ">
+              &#120013; <span class="operator add small27">
+			  </span> = 8
+            </span>
+        </div>
+		</div>	
+		</div>	
+		</div>	
+	</content>
+
+	<steps>
+  		
+  	</steps>
+</problem>

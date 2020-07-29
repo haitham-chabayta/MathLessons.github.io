@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<problem>
+	<attributes>
+		<UID>6-T01-BB001</UID>
+	</attributes>
+	<content>
+		<div class="wrapper xml3">
+			<div class="container">
+			<div class="template-two">
+			<div  class="innerBlock">	
+			<h2> Remember</h2>
+				<p class="pl15 pb20">The inverse operation of addition is <span class="blue">Substraction</span></p>
+			</div>
+			<div class="innerBlock-2nd">
+				<ul>
+				<li>
+				<div>
+				<span class="operator add small50">
+				</span>
+				<span class="HbidirectionalArrow small">
+				</span>
+				<span class="operator sub small50">
+				</span>
+				</div>
+				</li>
+				<li><div>
+				<span class="operator sub small50">
+				</span>
+				<span class="HbidirectionalArrow small">
+				</span>
+				<span class="operator add small50">
+				</span>
+				</div></li>
+				<li>	<div>
+				<span class="operator mul small50">
+				</span>
+				<span class="HbidirectionalArrow small">
+				</span>
+				<span class="operator div small50">
+				</span>
+				</div></li>
+				<li>	<div>
+				<span class="operator div small50">
+				</span>
+				<span class="HbidirectionalArrow small">
+				</span>
+				<span class="operator mul small50">
+				</span>
+				</div></li>
+				</ul>
+				
+			</div>
+			</div>
+			</div>
+		</div>	
+	</content>
+
+	<steps>
+  		
+  	</steps>
+</problem>

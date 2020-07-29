@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<problem>
+	<attributes>
+		<UID>06-CBDP-BB003</UID>
+	</attributes>
+	<content bgcolor="#F8F9FB">
+		<div class="wrapper xml3">
+			<div class="container ">
+				<h1 class="header-r center animated zoomIn"><b>Quadrilaterals</b> with only <b>right angles</b></h1>
+				<div id="r-box" class="box-r center none">
+					<div class="inline img-r">
+						<img id="right" class="animated wobble" src="img/right.png"/>
+					</div>
+					<div id="per-box" class="inline-block dialog-r animated bounceIn delay-2s none">
+						<div class="dialog-boxes-components">
+						<div class="dialog-box-dark image animated fadeIn">
+						<span class="pin animated rotateIn delay-1s">
+						</span>
+						<span class="blue">Perpendicular lines</span> are the lines that meet or cross each other to make a <span class="blue">right angle</span>.
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</content>
+	<steps>
+		<step soundID="AU0055">
+		</step>
+		<step>
+			<show id="r-box" delay="0.5"/>
+		</step>
+		<pause delay="2"/>
+		<step soundID="AU0060">
+		</step>
+		<next/>
+	</steps>
+	<sounds>
+		<sound id="AU0055" src="sounds/AU0055.mp3">	
+		</sound>
+		<sound id="AU0060" src="sounds/AU0060.mp3">	
+		</sound>
+	</sounds>
+</problem>

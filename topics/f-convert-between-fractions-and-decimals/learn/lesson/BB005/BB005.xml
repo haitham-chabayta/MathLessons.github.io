@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<problem>
+	<attributes>
+		<UID>06-CBDF-BB005</UID>
+	</attributes>
+	 <content>
+		<div class="wrapper">
+			<div class="container xml5">
+			<div class="dialog-boxes-components" style="position:relative">
+			<div class="marginAuto curio-icon animated bounce delay-3s">
+					</div>
+				<div class="text-center mb30">
+				<h2 class="top-header">Converting fraction to decimal:</h2>
+				</div>
+		<div class="dialog-box-dark image animated fadeIn">
+				<span class="bulb animated flash delay-1s">
+				</span>
+			
+						<span style="margin-left:40px">Divide the numerator by the denominator.</span>
+				</div>
+				<div class="lower-box">
+					<!-- <span id="t1" class="animated zoomIn t-group t1" style="display:none;">decimal </span>
+					<span id="t2" class="animated zoomIn t-group" style="display:none;">= denominator</span>
+					<span id="t3" class="img-background animated zoomIn t-group" style="display:none;">numerator</span> -->
+					<!-- <span id="t3" class="animated zoomIn t-group t3" style="display:none;">denominator</span> -->
+					<!-- <img id="t4" class="img-div animated slideInDown" src="./img/division.png"/> -->
+					<div id="box-l" style="display:none" class="dialog-box-light image animated fadeIn  delay-2s">
+					<div class="text-center">
+					<h2 id="frac-" class="last-header" style="display:none;">
+					<frac>
+					<span id="t1" class="animated fadeIn" style="display:none;">3</span>
+					<span id="divider">|</span>
+					<span id="t2" class="animated fadeIn" style="display:none;">4</span>
+					</frac>
+					<span id="t3" class="animate fadeIn" style="display:none;">= 0.75</span>
+					</h2>
+				</div>
+				</div>	
+				</div>
+		</div>
+		</div>
+		</div>
+	</content>
+	<steps> 
+	<step soundID="AU0035">
+	<show id="t1" delay="2"/>
+	<show id="t2" delay="3"/>
+	<show id="t3" delay="4"/>
+	</step>
+	<step soundID="AU0040">
+		<show id="frac-"/>
+		<show id="t1"/>
+		<show id="divider"/>
+		<show id="t2"/>
+		<show id="t3"/>
+		<show id="box-l"/>
+	</step>
+		<next/>
+	</steps>
+	<sounds>
+		<sound id="AU0040" src="sounds/AU0040.mp3">
+			<ttsText>To convert a fraction to a decimal, divide the numerator by the denominator using long division .""</ttsText>
+		</sound>
+		<sound id="AU0035" src="sounds/AU0035.mp3">
+			<ttsText>Let’s see how to convert fractions to decimals.</ttsText>
+		</sound>
+	</sounds>
+</problem>

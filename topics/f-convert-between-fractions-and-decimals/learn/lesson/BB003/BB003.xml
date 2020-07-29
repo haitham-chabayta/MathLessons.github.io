@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<problem>
+	<attributes>
+		<UID>06-CBDP-BB003</UID>
+	</attributes>
+	<content bgcolor="#F8F9FB">
+		<div class="wrapper">
+			<div class="xml3-new container ">
+			<div class="template-one">
+			<div class="marginAuto curio-icon animated bounce delay-3s">
+					</div>
+					<h1 class="animated zoomIn">Identify <strong>all</strong> the fractions:</h1>
+		
+			<div id="Q1 ">
+				
+			<!-- <div class="dropboxes "> -->
+			<ul>
+			<li class="animated flipInY delay-1s"><choose id="c1"><frac>32 | 54</frac></choose></li>
+			<li class="animated flipInY delay-1s"><choose id="c2">123.1</choose></li>
+			<li class="animated flipInY delay-1s"><choose id="c3"><frac>6 | 8</frac></choose></li>
+			<li class="animated flipInY delay-1s"><choose id="c4">3.754</choose></li>
+			<li class="animated flipInY delay-1s"><choose id="c5">0.76</choose></li>
+			<li class="animated flipInY delay-1s"><choose id="c6"><frac>56 | 90</frac></choose></li>
+			<li class="animated flipInY delay-1s"><choose id="c7">2.78</choose></li>
+			<li class="animated flipInY delay-1s"><choose id="c8"><frac>9 | 20</frac></choose></li>
+			<li class="animated flipInY delay-1s"><choose id="c9"><frac>1| 2</frac></choose></li>
+			<li class="animated flipInY delay-1s"><choose id="c10">18.43</choose></li>
+			<li class="animated flipInY delay-1s"><choose id="c11">0.65</choose></li>
+			<li class="animated flipInY delay-1s"><choose id="c12"><frac>24| 6</frac></choose></li>
+			</ul>
+			<!-- </div> -->
+			</div>
+			</div>
+			</div>
+		</div>
+	</content>
+	<steps>
+<pause delay="1"/>
+	<step soundID="AU0025">
+	<show id="curio" delay="1"/>
+	</step>
+	<submit id="Q1">
+	<controls>
+		<chooseControl id="choose_control_1" buttons="c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12" correctAnswer="c1,c3,c6,c8,c9,c12" />
+		</controls>
+		</submit>
+		<step>
+	<next if="Q1.incorrect||Q1.correct"/>
+		<replaceAnswerToggle id="choose_control_1"/>
+	</step>
+	
+		<next/>
+	</steps>
+	<sounds>
+		<sound id="AU0025" src="sounds/AU0025.mp3">
+		<ttsText>Identify the fractions from the given numbers by clicking on the fractions.</ttsText>
+		</sound>
+
+	</sounds>
+</problem>

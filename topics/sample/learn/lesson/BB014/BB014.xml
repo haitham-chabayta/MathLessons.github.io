@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<problem>
+	<attributes>
+		<UID>6-T01-BB001</UID>
+	</attributes>
+	<content>
+	<div class="wrapper xml10">
+		<div class="container">
+			<div class="template-eleven text-center component">
+      <h1 class="title">Put here a nice title</h1>
+      <p class="desc">In algebra, letter symbols represent numbers. In an equation, the unknown or variable usually has a value.</p>
+      <span class="blue dialog-step">Step 01</span>
+      <div class="dialog-wrapper">
+      <div class="dialog-box-lg">
+      
+      </div>
+      </div>
+			</div>	
+		</div>	
+	</div>	
+	</content>
+
+	<steps>
+    
+  	</steps>
+</problem>

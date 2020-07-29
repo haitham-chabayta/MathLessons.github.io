@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<problem>
+	<attributes>
+		<UID>06-CBDF-BB002</UID>
+	</attributes>
+	 <content>
+		<div class="wrapper">
+			<div class="container xml2">
+			<div class="innerContainer">
+			<div class="dialog-box-light image animated fadeIn">
+				<span class="pin animated rotateIn delay-1s">
+				</span>
+			
+				<p style="padding-left:40px">Here is a <b>fraction</b> and a <b>decimal</b> that displays the same value.</p>
+				</div>
+			<div class="centerContent">
+			<div id="arrow"  class="animated rubberBand HbidirectionalArrow mb30 mt30" style="display:none">
+			</div>
+			<div id="first" class="box1 mt30">
+				<h1 id="t1" class="txt1 animated rotateInDownLeft" style="display:none" >Fraction <label  style="color:#0cb99f" id="frac1"><frac>1|8</frac></label></h1>
+			
+				<img id="pizza" class="img2 animated zoomIn" src="img/pizza.png" style="display:none"/>
+				<h1 id="t2" class="txt2 animated rotateInDownRight" style="display:none">Decimal <label  style="color:#0cb99f" id="frac2">0.125</label></h1>
+			</div>
+			</div>
+		</div>
+		</div>
+		</div>
+	</content>
+	<steps>
+<pause delay="1"/>
+	<!-- <next/> -->
+	<step soundID="AU0015">
+	<show id="pizza" delay="2"/>
+	<show id="t1" delay="5"/>	
+	<show id="t2" delay="5"/>	
+	<pointMarker id="frac1" at="center" delay="6"/>
+	<pointMarker id="frac2" at="center" delay="7"/>
+	<show id="arrow" delay="8"/>
+	</step>
+	<step>
+		
+	</step>
+		<next/>
+	</steps>
+
+	<sounds>
+		<sound id="AU0015" src="sounds/AU0015.mp3">
+			<ttsText>In the picture, the selected portion of pizza can be represented as a fraction and a decimal. Both the fraction and the decimal have an equal value.</ttsText>
+		</sound>
+		<sound id="AU0020" src="sounds/AU0020.mp3">
+			<ttsText></ttsText>
+		</sound>
+		</sounds>
+</problem>
